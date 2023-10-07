@@ -1,0 +1,24 @@
+.firstsec {
+  margin-top: 40px;
+}
+
+.secondsec {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+.thirdsec {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+.entertainment h1 {
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.imgcontainer {
+  margin-top: 30px;
+}
+.divevents {
+  margin-top: 30px;
+  margin-left: 20px;
+}

@@ -1,0 +1,12 @@
+.sec1 {
+  margin-top: 60px;
+}
+
+.sec4 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+.contructionmaterial {
+  font-weight: 900;
+  font-size: 30px;
+}

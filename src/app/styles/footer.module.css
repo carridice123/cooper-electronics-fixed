@@ -1,0 +1,38 @@
+.foot {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  /* background: #020617; */
+  color: #020617;
+  /* border: 1px solid black; */
+  flex-direction: column;
+}
+.footcontent {
+  display: flex;
+}
+
+.secondsec {
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+.openhrs {
+  margin-bottom: 20px;
+}
+.openings {
+  display: flex;
+  gap: 150px;
+}
+.secopening {
+  margin-left: 400px;
+  margin-top: 120px;
+}
+.copyrights {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 10px;
+  height: 40px;
+  width: 100%;
+  color: white;
+  background-color: #020617;
+}

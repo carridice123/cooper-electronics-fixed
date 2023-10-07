@@ -1,0 +1,77 @@
+.sec1 {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 30px;
+  height: 600px;
+}
+.sec2 {
+  padding-left: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.divheading {
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+}
+.headingmap {
+  padding-top: 30px;
+}
+.heading {
+  font-weight: 900;
+}
+.div1 {
+  /* border: 1px solid black; */
+  /* padding-top: 10px; */
+  padding-left: 20px;
+}
+.div2 {
+  /* border: 1px solid black; */
+  /* padding-top: 10px; */
+  padding-left: 10px;
+}
+.div2ul {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.div3 {
+  display: flex;
+}
+.div4 {
+  display: flex;
+}
+.divimg {
+  padding-right: 10px;
+}
+.hardwareh1 {
+  font-weight: 900;
+}
+.clock {
+  color: red;
+  width: 14px;
+  height: 14px;
+}
+.servicesul {
+  padding-top: 20px;
+}
+.servicesh1 {
+  font-weight: 900;
+}
+.servicesnaddress {
+  /* border: 1px solid black; */
+  margin-top: 30px;
+}
+.div3content {
+  /* border: 1px solid black; */
+  margin-top: 60px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.lis {
+  list-style-type: disc;
+}

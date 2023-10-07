@@ -1,0 +1,58 @@
+.secondsec {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+.thirdsec {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+.divrentalh1 {
+  font-weight: 900;
+  font-size: 30px;
+}
+.sec1 {
+  margin: 20px 0 0 20px;
+}
+.installh2 {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.divul {
+  margin-top: 10px;
+}
+.cardiscription {
+  margin-top: 40px;
+}
+
+.detailsdiv {
+  margin-top: 20px;
+}
+.detailspan {
+  text-decoration: underline;
+}
+.divprice {
+  margin-top: 20px;
+}
+.carprice {
+  font-weight: 800;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.ulidentification {
+  font-weight: 800;
+  font-size: 20px;
+}
+.dividentification h3 {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.imgcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,31 @@
+.sec1 {
+  border: 1px solid black;
+  width: 100%;
+  height: 300px;
+}
+.navcontent {
+  position: fixed;
+  width: 100%;
+}
+.navs {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.phone {
+  display: flex;
+  /* border: 1px solid white; */
+  width: 20%;
+  gap: 10px;
+}
+.navul {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-top: 16px;
+  background-color: #020617;
+  color: #fff;
+  width: 95%;
+}
