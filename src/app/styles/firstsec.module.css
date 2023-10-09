@@ -22,12 +22,16 @@
   display: flex;
   margin-left: 20px;
   margin-top: 40px;
+
+  /* border: 1px solid black; */
+}
+.gobackdiv {
+  width: fit-content;
 }
 .goback:hover {
   background-color: #1888ff;
   border-radius: 4px;
   transition: all 0.2s ease-out;
-  width: 100px;
 }
 .socials {
   margin-left: 240px;
@@ -37,4 +41,11 @@
   padding-top: 80px;
   width: 60%;
   /* border: 1px solid black; */
+}
+
+@media only screen and (max-width: 600px) {
+  .sec {
+    background-color: yellow;
+    /* display: none; */
+  }
 }

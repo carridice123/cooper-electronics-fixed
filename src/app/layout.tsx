@@ -1,4 +1,5 @@
 import "./globals.css";
+import styles from "./styles/layout.module.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Firstsec from "./components/firstsec";
@@ -18,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Firstsec />
-        {children}
-        <Footer />
+        <section className={styles.paren}>
+          <Firstsec />
+          {children}
+          <Footer />
+        </section>
       </body>
     </html>
   );

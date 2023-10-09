@@ -16,7 +16,7 @@ const Firstsec = () => {
           <Socials />
         </div>
       </section>
-      <div>
+      <div className={styles.gobackdiv}>
         <Link href="/" className={styles.goback}>
           <Image
             src="/arrowleft.png"

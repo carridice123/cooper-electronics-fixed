@@ -6,7 +6,8 @@ const Navbar = () => {
     <section className={styles.navcontent}>
       <nav className={styles.navs}>
         <ul className={styles.navul}>
-          <li>Copper-electronics-Hardwares</li>
+          <li className={styles.navlis}>Copper-electronics-Hardwares</li>
+          <li className={styles.navhome}>Home</li>
           <li>about us</li>
           <li>contacts</li>
           <li className={styles.phone}>
