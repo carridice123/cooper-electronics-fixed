@@ -7,7 +7,15 @@ import Socials from "./socials";
 const Firstsec = () => {
   return (
     <section className={styles.sec}>
-      <Navbar />
+      <section className={styles.navsec}>
+        <Navbar />
+      </section>
+      <section className={styles.mediahelp}>
+        <Logo />
+        <div className={styles.soc}>
+          <Socials />
+        </div>
+      </section>
       <section className={styles.sec2}>
         <div className={styles.logo}>
           <Logo />

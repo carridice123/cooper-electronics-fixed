@@ -3,6 +3,7 @@ import styles from "./styles/layout.module.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Firstsec from "./components/firstsec";
+import Secondnav from "./components/secnav";
 import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <section className={styles.paren}>
           <Firstsec />
+          <Secondnav />
           {children}
           <Footer />
         </section>

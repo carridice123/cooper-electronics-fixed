@@ -1,5 +1,7 @@
 .sec {
   width: 100%;
+  /* border: 1px solid black; */
+  min-height: 5rem;
 }
 
 .navul {

@@ -9,6 +9,9 @@
   height: auto;
   overflow: hidden;
 }
+.secnavcontrol {
+  display: none;
+}
 @media (max-width: 660px) {
   .main {
     display: flex;

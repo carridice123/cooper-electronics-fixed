@@ -2,6 +2,7 @@
   position: fixed;
   width: 100%;
   height: auto;
+  /* border: 1px solid black; */
 }
 .navs {
   max-width: 100%;
@@ -28,27 +29,27 @@
   width: 20%;
   gap: 0.4rem;
 }
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 600px) {
   .phone {
     display: none;
   }
   .navcontent {
-    max-width: 18rem;
-    height: 3rem;
+    min-width: 100vw;
+    min-height: 4rem;
     position: fixed;
     font-size: 1rem;
     /* box-sizing: border-box; */
     padding-right: 9rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     overflow: hidden;
   }
   .navs {
-    width: 16rem;
-    /* height: 3rem; */
+    min-width: 100vw;
+    min-height: 3rem;
     /* margin-left: 5rem; */
-    border: 1px solid black;
+    /* border: 1px solid red; */
 
-    background-color: blue;
+    /* background-color: blue; */
   }
   .navul li {
     font-size: 0.6rem;
@@ -62,8 +63,8 @@
     margin-right: 3rem;
     background-color: #020617;
     color: #fff;
-    max-width: 75%;
-    height: 2rem;
+    min-width: 75vw;
+    /* min-height: 2rem; */
     border: 1px solid black;
   }
   .navlis {
@@ -71,5 +72,11 @@
   }
   .navhome {
     display: inline;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navcontent {
+    color: #fff;
   }
 }
