@@ -51,39 +51,59 @@
     background-color: yellow;
     display: flex;
     flex-direction: column;
-
+    border: 1px solid black;
     min-width: 100vw;
-    min-height: 3vh;
+    height: 6vh;
+    margin: 0;
     /* /* border: 1px solid black; * */
   }
-  .socials {
+  /* .socials {
     margin-right: 7rem;
     min-height: 4rem;
     display: none;
     padding-bottom: 3rem;
     width: 50vw;
     border: 1px solid #000000;
-  }
-  /* .sec2 {
-    display: flex;
-    margin-right: 9rem;
-    min-width: 30vw;
-    min-height: 2rem;
-    border: px solid black;
   } */
+  .sec2 {
+    display: flex;
+    min-width: 100%;
+    min-height: 8rem;
+    /* border: 1px solid black; */
+    padding-bottom: 6rem;
+  }
+  .contacts {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .email {
+    display: flex;
+    flex-direction: column;
+  }
+  .emailh2 {
+    color: #1888ff;
+    text-decoration: underline;
+  }
   .logo {
     /* border: 1px solid black; */
-    /* margin: 0 auto; */
-    /* padding-left: 6rem; */
-    display: none;
+    width: 20;
+    height: 20vh;
+    margin-top: -2rem;
+  }
+  .logomotto {
+    display: flex;
+    min-width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+  }
+  .logoimg {
+    min-width: 230px;
+    min-height: 230px;
   }
   .gobackdiv {
     display: none;
-  }
-  .mediahelp {
-    display: flex;
-    border: 1px solid black;
-    justify-content: center;
   }
 
   .navsec {
@@ -92,5 +112,14 @@
     /* display: none; */
     /* border: 3px solid white; */
     margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .logonmotto {
+    display: none;
+  }
+  .contacts {
+    display: none;
   }
 }

@@ -11,10 +11,29 @@ const Firstsec = () => {
         <div className={styles.logo}>
           <Logo />
         </div>
-        <div className={styles.socials}>
+        <section className={styles.logomotto}>
+          <Image
+            src="/coppermotto.png"
+            alt="motto"
+            width={150}
+            height={150}
+            className={styles.logoimg}
+          ></Image>
+        </section>
+        {/* <div className={styles.socials}>
           <Socials />
+        </div> */}
+      </section>
+      <section className={styles.contacts}>
+        <div className={styles.emailimg}>
+          <Image src="/email.png" alt="email" width={50} height={50}></Image>
+        </div>
+        <div className={styles.email}>
+          <h2>Email Us</h2>
+          <span className={styles.emailh2}>copperelectronics@gmail.com</span>
         </div>
       </section>
+
       <div className={styles.gobackdiv}>
         <Link href="/" className={styles.goback}>
           <Image
