@@ -29,7 +29,7 @@
   width: 20%;
   gap: 0.4rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 899px) {
   .phone {
     display: none;
   }
@@ -38,8 +38,9 @@
     min-height: 4rem;
     position: fixed;
     font-size: 1rem;
+    display: none;
     /* box-sizing: border-box; */
-    padding-right: 9rem;
+    padding-left: 1.5rem;
     /* border: 1px solid black; */
     overflow: hidden;
   }
@@ -63,7 +64,7 @@
     margin-right: 3rem;
     background-color: #020617;
     color: #fff;
-    min-width: 75vw;
+    min-width: 100vw;
     /* min-height: 2rem; */
     border: 1px solid black;
   }

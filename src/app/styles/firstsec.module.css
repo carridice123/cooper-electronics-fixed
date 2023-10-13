@@ -51,9 +51,10 @@
     background-color: yellow;
     display: flex;
     flex-direction: column;
+
     min-width: 100vw;
-    min-height: 2rem;
-    /* border: 1px solid black; */
+    min-height: 3vh;
+    /* /* border: 1px solid black; * */
   }
   .socials {
     margin-right: 7rem;
@@ -61,7 +62,7 @@
     display: none;
     padding-bottom: 3rem;
     width: 50vw;
-    /* border: 1px solid #000000; */
+    border: 1px solid #000000;
   }
   /* .sec2 {
     display: flex;
@@ -79,30 +80,17 @@
   .gobackdiv {
     display: none;
   }
+  .mediahelp {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+  }
+
   .navsec {
     min-width: 100vw;
     min-height: 70px;
     /* display: none; */
     /* border: 3px solid white; */
     margin-left: 2rem;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .sec2 {
-    display: none;
-  }
-  .mediahelp {
-    display: flex;
-    /* border: 1px solid black; */
-    justify-content: center;
-  }
-  .soc {
-    display: flex;
-    flex-direction: column;
-    padding-top: 3rem;
-  }
-  .navsec {
-    border: 1px solid black;
   }
 }

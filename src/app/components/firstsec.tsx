@@ -1,21 +1,12 @@
-import Navbar from "./navbar";
 import styles from "../styles/firstsec.module.css";
 import Logo from "./logo";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Socials from "./socials";
 const Firstsec = () => {
   return (
     <section className={styles.sec}>
-      <section className={styles.navsec}>
-        <Navbar />
-      </section>
-      <section className={styles.mediahelp}>
-        <Logo />
-        <div className={styles.soc}>
-          <Socials />
-        </div>
-      </section>
       <section className={styles.sec2}>
         <div className={styles.logo}>
           <Logo />

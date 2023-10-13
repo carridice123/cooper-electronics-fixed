@@ -3,6 +3,9 @@ import styles from "./styles/layout.module.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Firstsec from "./components/firstsec";
+import Navbar from "./components/navbar";
+import Bootmobile from "./components/bootnavmobile";
+import Mobilesecnav from "./components/mobilesecnav";
 import Secondnav from "./components/secnav";
 import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
@@ -21,6 +24,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <section className={styles.paren}>
+          <Navbar />
+
+          <Bootmobile />
+          <Mobilesecnav />
+
           <Firstsec />
           <Secondnav />
           {children}
