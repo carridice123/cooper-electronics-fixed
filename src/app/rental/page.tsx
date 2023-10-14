@@ -5,11 +5,12 @@ import About from "../components/about";
 const Rental = () => {
   return (
     <section className={styles.mainsec}>
-      <div className={styles.divchoose}>
-        <h1>Choose from our cars collection</h1>
+      <div className={styles.divchoos}>
+        <h1 className={styles.divchoose}>Cars For Rental</h1>
+        <p className={styles.price}>Give us a call or prices are reasonable</p>
       </div>
       <section className={styles.imgcontainer}>
-        <div>
+        <div className={styles.cardiscrip}>
           <ul>
             <li>2014 axio</li>
             <li>15,000JMD for 5day</li>
@@ -18,6 +19,7 @@ const Rental = () => {
           </ul>
         </div>
         <section className={styles.sec1}>
+          <h1 className={styles.caryear}>2014 Axio</h1>
           <Image
             src="/img21.jpg"
             alt="rent car image"
@@ -38,8 +40,7 @@ const Rental = () => {
             height={600}
           ></Image>
         </section>
-
-        <div>
+        <div className={styles.chevdiscrip}>
           <ul>
             <li>2014 chevolete we converted into(hearse)</li>
             <li>15,000JMD for 1day</li>
@@ -48,8 +49,8 @@ const Rental = () => {
             </li>
           </ul>
         </div>
-
         <section className={styles.sec2}>
+          <h1>2015 Chevolete(Hearse)</h1>
           <Image
             src="/img34.jpg"
             alt="rent car image"
@@ -69,8 +70,7 @@ const Rental = () => {
             height={600}
           ></Image>
         </section>
-
-        <div>
+        <div className={styles.suzukidetails}>
           <ul>
             <li>2009 suzuki Swift</li>
             <li>9,000JMD for 1week</li>
@@ -78,8 +78,9 @@ const Rental = () => {
             <li>30,000JMD</li>
           </ul>
         </div>
-
         <section className={styles.sec3}>
+          <h1>2009 Suzuki Swift</h1>
+
           <Image
             src="/img16.jpg"
             alt="rent car image"
