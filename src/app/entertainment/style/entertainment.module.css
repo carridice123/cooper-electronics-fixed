@@ -22,3 +22,21 @@
   margin-top: 30px;
   margin-left: 20px;
 }
+
+@media (max-width: 899px) {
+  .secondsec {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .imgcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .thirdsec {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+}

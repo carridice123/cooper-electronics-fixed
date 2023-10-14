@@ -10,6 +10,49 @@ const Electronics = () => {
           <h1>Electronics Installation</h1>
         </div>
 
+        <section className={styles.imgcontain}>
+          <section className={styles.secondsec}>
+            <Image
+              src="/img13.jpg"
+              alt="image"
+              width={600}
+              height={600}
+            ></Image>
+            <Image
+              src="/img26.jpg"
+              alt="image"
+              width={600}
+              height={600}
+            ></Image>
+            <Image
+              src="/img25.jpg"
+              alt="image"
+              width={600}
+              height={600}
+            ></Image>
+          </section>
+          <section className={styles.thirdsec}>
+            <Image
+              src="/img23.jpg"
+              alt="image"
+              width={600}
+              height={600}
+            ></Image>
+            <Image
+              src="/img32.jpg"
+              alt="image"
+              width={600}
+              height={600}
+            ></Image>
+            <Image
+              src="/img33.jpg"
+              alt="image"
+              width={600}
+              height={600}
+            ></Image>
+          </section>
+        </section>
+
         <section className={styles.sectcontent}>
           <section className={styles.sectcontent2}>
             <div className={styles.divinstall}>
