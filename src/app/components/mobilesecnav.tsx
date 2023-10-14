@@ -12,7 +12,7 @@ const Mobilesecnav = () => {
             width={20}
             height={20}
           ></Image>
-          <span>Sun to sun-8:00AM to 10:00PM</span>
+          <span>Sun to sun-7:00AM to 10:00PM</span>
         </div>
         <div className={styles.div2}>
           <Image

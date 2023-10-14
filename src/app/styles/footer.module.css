@@ -1,38 +1,106 @@
-.foot {
-  display: flex;
-  width: 100%;
-  height: 400px;
-  /* background: #020617; */
-  color: #020617;
-  /* border: 1px solid black; */
-  flex-direction: column;
-}
-.footcontent {
-  display: flex;
+@media (min-width: 900px) {
+  .foot {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    /* background: #020617; */
+    color: #020617;
+    /* border: 1px solid black; */
+    flex-direction: column;
+  }
+  .footcontent {
+    display: flex;
+  }
+
+  .secondsec {
+    margin-left: 20px;
+    padding-bottom: 30px;
+  }
+  .openhrs {
+    margin-bottom: 20px;
+  }
+  .openings {
+    display: flex;
+    gap: 150px;
+  }
+  .secopening {
+    margin-left: 400px;
+    margin-top: 120px;
+  }
+  .copyrights {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 10px;
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: #020617;
+  }
 }
 
-.secondsec {
-  margin-left: 20px;
-  padding-bottom: 30px;
-}
-.openhrs {
-  margin-bottom: 20px;
-}
-.openings {
-  display: flex;
-  gap: 150px;
-}
-.secopening {
-  margin-left: 400px;
-  margin-top: 120px;
-}
-.copyrights {
-  border: 1px solid black;
-  text-align: center;
-  margin-top: auto;
-  padding-top: 10px;
-  height: 40px;
-  width: 100%;
-  color: white;
-  background-color: #020617;
+@media (max-width: 899px) {
+  .foot {
+    min-width: 100vw;
+    height: 94vh;
+    /* border: 1px solid black; */
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .firstseclogo {
+    display: none;
+  }
+  .servicesul {
+    font-size: 0.85rem;
+  }
+  .sectionsecsocial {
+    display: none;
+  }
+  .footerul {
+    font-size: 0.85rem;
+  }
+  .firstsec {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .secondsec {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .footcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 0.4rem;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .secopening {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .openings {
+    display: flex;
+    font-size: 0.85rem;
+    gap: 0.9rem;
+  }
+  .secopening {
+    display: flex;
+    flex-direction: column;
+  }
+  .copyrights {
+    background-color: #f46b45;
+    color: #fff;
+    width: 100vw;
+    height: 15vh;
+    padding-top: 1rem;
+  }
 }

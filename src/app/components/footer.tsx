@@ -1,4 +1,5 @@
 import Socials from "./socials";
+import Link from "next/link";
 import Logo from "./logo";
 import styles from "../styles/footer.module.css";
 const Footer = () => {
@@ -6,16 +7,38 @@ const Footer = () => {
     <footer className={styles.foot}>
       <section className={styles.footcontent}>
         <section className={styles.firstsec}>
-          <Logo />
+          <section className={styles.firstseclogo}>
+            <Logo />
+          </section>
           <section className={styles.secondsec}>
+            <h1 className={styles.secondsech1}>About Us</h1>
+
             <ul className={styles.footerul}>
-              <li>Contacts</li>
-              <li>About</li>
-              <li>Email: copperelectronicshardware@gmail.com</li>
-              <li>tel: (876)454-9844</li>
+              <li>Email: copperelectronics@gmail.com</li>
+              <li>Tel: (876)454-9844</li>
             </ul>
           </section>
-          <Socials />
+          <section className={styles.service}>
+            <h1>Our Services</h1>
+            <ul className={styles.servicesul}>
+              <li>
+                <Link href="/electronics">Electronics</Link>
+              </li>
+              <li>
+                <Link href="/construction">Contstruction Materials</Link>
+              </li>
+              <li>
+                <Link href="/entertainment">Rental Cars</Link>
+              </li>
+              <li>
+                <Link href="/rental">We also host events</Link>
+              </li>
+            </ul>
+          </section>
+
+          <section className={styles.sectionsecsocial}>
+            <Socials />
+          </section>
         </section>
         <section className={styles.secopening}>
           <div className={styles.openhrs}>
