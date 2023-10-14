@@ -42,7 +42,7 @@
 @media (max-width: 899px) {
   .foot {
     min-width: 100vw;
-    height: 94vh;
+    min-height: 94vh;
     /* border: 1px solid black; */
     gap: 2rem;
     display: flex;
@@ -102,6 +102,6 @@
     width: 100vw;
     height: 9vh;
     padding-top: 1rem;
-    margin-top: 0;
+    margin-top: auto;
   }
 }
