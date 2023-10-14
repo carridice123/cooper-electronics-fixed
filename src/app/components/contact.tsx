@@ -22,7 +22,7 @@ const Contacts = () => {
 
           <h3 className={styles.div2h2}>
             This is our electronics store number you can call and check if we
-            have what you need
+            have what you need.
             <span>Office tel: (876)631-2975</span>
           </h3>
         </div>
@@ -32,7 +32,7 @@ const Contacts = () => {
 
           <h3 className={styles.div3h3}>
             This is our hardware store number call this number and make your
-            contruction enquirie.
+            contruction enquiry.
             <span>tel: (876)837-8766</span>
           </h3>
         </div>
