@@ -6,13 +6,20 @@ const About = () => {
     <section className={styles.sec1}>
       <div className={styles.divheading}>
         <h1 className={styles.heading}>About us</h1>
-        <Image
+        {/* <Image
           src="/coppermap.jpg"
           alt="map image"
           width={780}
           height={780}
           className={styles.headingmap}
-        ></Image>
+        ></Image> */}
+        <div className={styles.googlemaps}>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.0785150066254!2d-77.25689062916071!3d17.975083748097045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edb9f2cb1ada675%3A0xdeba2b46ddad10b!2sCopper%20Electronics!5e0!3m2!1sen!2sjm!4v1697241319173!5m2!1sen!2sjm"
+            width="600"
+            height="450"
+          ></iframe>
+        </div>
       </div>
       <section className={styles.sec2}>
         <div className={styles.div1}>

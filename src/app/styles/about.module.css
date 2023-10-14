@@ -17,12 +17,7 @@
   text-align: center;
   width: 100%;
 }
-.headingmap {
-  margin-left: 2rem;
-  max-width: 90%;
-  height: auto;
-  padding-top: 30px;
-}
+
 .heading {
   font-weight: 900;
 }
@@ -79,13 +74,34 @@
   list-style-type: disc;
 }
 
-@media (max-width: 660px) {
+.googlemaps {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  /* we are working with 16 / 9 ratio = 0.5625 */
+  position: relative;
+  height: 0;
+}
+.googlemaps iframe {
+  left: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media (max-width: 899px) {
   .sec1 {
     display: flex;
     flex-direction: column;
     text-align: center;
     max-width: 49rem;
     height: auto;
+  }
+  .headingmap {
+    margin-left: 2rem;
+    max-width: 90%;
+    height: auto;
+    padding-top: 30px;
   }
   .sec2 {
     width: 100%;
@@ -102,3 +118,7 @@
     padding-top: 2rem;
   }
 }
+
+/* @media (min-width: 900px) {
+
+} */
