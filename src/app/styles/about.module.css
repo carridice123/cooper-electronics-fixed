@@ -96,6 +96,10 @@
     text-align: center;
     max-width: 49rem;
     height: auto;
+    margin-top: 0;
+  }
+  .divheading {
+    background-color: #f9fafb;
   }
   .heading {
     margin-bottom: 2rem;
@@ -103,6 +107,7 @@
     font-size: 1.48rem;
     display: flex;
     flex-direction: column;
+    color: #f46b45;
   }
   .headingmap {
     margin-left: 2rem;
@@ -124,11 +129,14 @@
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
+    background-color: #f9fafb;
   }
   .servicesh1 {
     font-weight: 900;
     font-size: 1.426rem;
+    color: #f46b45;
   }
+
   .servicesul {
     font-weight: 500;
     font-size: 0.85rem;
@@ -147,6 +155,7 @@
   .hardwareh1 {
     font-weight: 900;
     font-size: 1.4rem;
+    color: #f46b45;
   }
   .hardwareuls {
     display: flex;
@@ -160,19 +169,22 @@
   .headingspann {
     font-size: 0.567rem;
     padding-top: 1.6rem;
+    color: #000;
   }
   .timedesk {
     display: none;
   }
   .time {
     font-size: 0.85rem;
+    padding-top: 0.9rem;
   }
   .times {
     font-size: 0.85rem;
+    padding-top: 1.3rem;
   }
   .divimg {
     width: 12vw;
-    height: 8vh;
+    height: 6vh;
   }
   .timesdesk {
     display: none;

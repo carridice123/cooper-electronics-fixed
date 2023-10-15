@@ -1,24 +1,27 @@
-.mains {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  gap: 20px;
-  width: 100%;
-  /* border: 1px solid black; */
-  height: auto;
-  overflow: hidden;
+@media (min-width: 899px) {
+  .mains {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 20px;
+
+    padding: 0;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: auto;
+    overflow: hidden;
+  }
+  .secnavcontrol {
+    display: none;
+  }
 }
-.secnavcontrol {
-  display: none;
-}
-@media (max-width: 660px) {
+
+@media (max-width: 899px) {
   .main {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
-    gap: 20px;
     width: 100%;
     height: auto;
   }

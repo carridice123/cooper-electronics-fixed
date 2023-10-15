@@ -48,7 +48,7 @@
 
 @media only screen and (max-width: 600px) {
   .sec {
-    background-color: yellow;
+    background-color: #ffff00;
     display: flex;
     flex-direction: column;
     /* border: 1px solid black; */
