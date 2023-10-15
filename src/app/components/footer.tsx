@@ -69,7 +69,7 @@ const Footer = () => {
         </section>
       </section>
       <span className={styles.copyrights}>
-        &copy; copy-rights Cooper-Electronics-Hardware
+        &copy; copy-rights Copper-Electronics-Hardware
       </span>
     </footer>
   );
