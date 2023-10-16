@@ -4,31 +4,57 @@
     width: 100vw;
     height: 100vh;
     /* background: #020617; */
-    color: #020617;
+    color: #fff;
     /* border: 1px solid black; */
     flex-direction: column;
+    background-color: #f46b45;
+  }
+  .sectionsecsocial {
+    margin-top: 3.56rem;
+  }
+  .service {
+    margin-left: 1rem;
+  }
+
+  .servicesul {
+    text-decoration: underline;
+  }
+  .service h1 {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #020617;
   }
   .footcontent {
     display: flex;
   }
 
   .secondsec {
-    margin-left: 20px;
-    padding-bottom: 30px;
+    margin-left: 1rem;
+    padding-bottom: 1.43rem;
+  }
+  .secondsech1 {
+    font-size: 1.92rem;
+    color: #020617;
+    font-weight: 800;
   }
   .openhrs {
     margin-bottom: 20px;
   }
+  .openhrs h2 {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #020617;
+  }
   .openings {
     display: flex;
-    gap: 150px;
+    gap: 5rem;
   }
   .secopening {
-    margin-left: 400px;
-    margin-top: 120px;
+    margin-left: 14rem;
+    margin-top: 12rem;
   }
   .copyrights {
-    border: 1px solid black;
+    border: 1px solid #020617;
     text-align: center;
     margin-top: auto;
     padding-top: 10px;
