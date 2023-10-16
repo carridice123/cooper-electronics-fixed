@@ -45,8 +45,16 @@
   width: 60vw;
   /* border: 1px solid black; */
 }
+@media only screen and (min-width: 900px) {
+  .logomotto {
+    display: none;
+  }
+  .contacts {
+    display: none;
+  }
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 899px) {
   .sec {
     background-color: #ffff00;
     display: flex;
@@ -67,16 +75,19 @@
   } */
   .sec2 {
     display: flex;
-    min-width: 100%;
-    min-height: 8rem;
+    min-width: 100vw;
+    flex-direction: column;
+    min-height: 8vh;
     /* border: 1px solid black; */
     padding-bottom: 6rem;
   }
   .contacts {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.5rem;
     margin-bottom: 2rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
   }
   .email {
     display: flex;
@@ -88,19 +99,29 @@
   }
   .logo {
     /* border: 1px solid black; */
-    width: 20;
+    width: 20vw;
     height: 20vh;
+    display: none;
     margin-top: -2rem;
+  }
+
+  .logomobile {
+    /* border: 1px solid black; */
+    display: fixed;
+    width: 18vw;
+    height: 15vh;
+    margin-top: -2.6rem;
   }
   .logomotto {
     display: flex;
-    min-width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 26vh;
+    justify-content: space-around;
     /* border: 1px solid black; */
   }
   .logoimg {
-    min-width: 230px;
-    min-height: 230px;
+    width: 39vw;
+    height: auto;
   }
   .gobackdiv {
     display: none;
@@ -112,14 +133,5 @@
     /* display: none; */
     /* border: 3px solid white; */
     margin-left: 2rem;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .logomotto {
-    display: none;
-  }
-  .contacts {
-    display: none;
   }
 }

@@ -30,7 +30,7 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 899px) {
   .sec {
     /* float: left;
     margin-top: -550px;
