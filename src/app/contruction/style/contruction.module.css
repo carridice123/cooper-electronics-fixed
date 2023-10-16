@@ -3,8 +3,7 @@
 }
 
 .sec4 {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  display: flex;
 }
 .contructionmaterial {
   font-weight: 900;
@@ -15,6 +14,12 @@
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
+    width: 100%;
+    height: auto;
     margin-top: 4rem;
+  }
+  .contruction h2 {
+    margin-top: 2rem;
+    font-size: 1.4rem;
   }
 }

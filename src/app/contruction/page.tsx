@@ -11,7 +11,17 @@ const Construction = () => {
             <h1>Contruction Materials</h1>
           </div>
           <div className={styles.contructioncontent}>
-            <h2>Our contruction team is always prepaired for your order</h2>
+            <div className={styles.contruction}>
+              <h2>Our contruction team is always prepaired for your order</h2>
+            </div>
+            <div className={styles.callus}>
+              <p>
+                We supply thousands of customers with materials to start homes
+                and projects big or small we understand and willing to help you
+                start somewhere.
+              </p>
+              <p>Call us today (876)454-9844</p>
+            </div>
             <p>
               We supply thousands of customers with materials to start homes and
               projects big or small we understand and willing to help you start

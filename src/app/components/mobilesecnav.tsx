@@ -11,6 +11,7 @@ const Mobilesecnav = () => {
             alt="clock image"
             width={20}
             height={20}
+            className={styles.clock}
           ></Image>
           <span>Sun to sun-7:00AM to 10:00PM</span>
         </div>
@@ -18,14 +19,16 @@ const Mobilesecnav = () => {
           <Image
             src="/tiktok.png"
             alt="tiktok image"
-            width={10}
-            height={10}
+            width={14}
+            height={14}
+            className={styles.clock}
           ></Image>
           <Image
             src="/instagram.png"
             alt="instagram image"
-            width={10}
-            height={10}
+            width={14}
+            height={14}
+            className={styles.clock}
           ></Image>
         </div>
       </section>

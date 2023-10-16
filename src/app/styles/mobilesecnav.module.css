@@ -14,11 +14,16 @@
 }
 .div1 {
   display: flex;
+  gap: 0.4rem;
 }
 .div2 {
   display: flex;
+  gap: 0.7rem;
 }
-
+.clock {
+  color: #fff;
+  text-decoration: underline;
+}
 @media (min-width: 900px) {
   .mobilesecnav {
     display: none;

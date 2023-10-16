@@ -61,7 +61,12 @@
   }
   .divrentalh1 {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 26px;
+    padding-top: 1rem;
+  }
+  .installh2,
+  .detailspan {
+    color: #f46b45;
   }
   .imgcontain {
     display: flex;
@@ -69,6 +74,12 @@
     margin-top: 3rem;
     margin-right: 0.5rem;
   }
+  .ultrackers,
+  .discriptiondiv,
+  .detailspanp1 {
+    font-size: 0.85rem;
+  }
+
   .dividentification {
     margin-top: 20px;
     font-weight: 600;

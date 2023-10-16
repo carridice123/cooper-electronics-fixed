@@ -85,11 +85,11 @@ const Electronics = () => {
             <div className={styles.detailsdiv}></div>
 
             <span className={styles.detailspan}>Further details:</span>
-            <p>
-              If you want to host an event or a birthday party and dont want to
-              over kill
+            <p className={styles.detailspanp1}>
+              If you want to host an event like a birthday party and dont want
+              to over board.
             </p>
-            <p>
+            <p className={styles.detailspanp1}>
               This might just be what you need, its flexible and the price is
               affordable.
             </p>
