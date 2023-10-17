@@ -31,9 +31,27 @@ const Construction = () => {
           </div>
         </section>
         <section className={styles.sec4}>
-          <Image src="/img7.jpg" alt="image" width={440} height={410}></Image>
-          <Image src="/img8.jpg" alt="image" width={440} height={410}></Image>
-          <Image src="/img1.jpg" alt="image" width={440} height={410}></Image>
+          <Image
+            src="/img7.jpg"
+            alt="image"
+            width={440}
+            height={410}
+            className={styles.img}
+          ></Image>
+          <Image
+            src="/img8.jpg"
+            alt="image"
+            width={440}
+            height={410}
+            className={styles.img}
+          ></Image>
+          <Image
+            src="/img1.jpg"
+            alt="image"
+            width={440}
+            height={410}
+            className={styles.img}
+          ></Image>
         </section>
       </section>
 

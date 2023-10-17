@@ -4,20 +4,27 @@
 
 .sec1 {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   margin-top: 20px;
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  /* grid-template-columns: 2fr 2fr 2fr; */
 }
-
+.rentalimgs {
+  display: flex;
+  gap: 0.8rem;
+}
 .sec2 {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  display: flex;
+  flex-direction: column;
+
+  /* grid-template-columns: 2fr 2fr 2fr; */
 }
 
 .sec3 {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  display: flex;
+  flex-direction: column;
+
+  /* grid-template-columns: 2fr 2fr 2fr; */
 }
 .divchoose {
   font-weight: 900;
@@ -38,6 +45,15 @@
   }
   .cardiscrip {
     display: none;
+  }
+  .rentalimgs {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+  }
+  .img {
+    width: 100%;
+    height: auto;
   }
   .chevdiscrip {
     display: none;

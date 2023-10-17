@@ -55,7 +55,7 @@
     flex-direction: column;
     /* border: 1px solid black; */
     min-width: 100vw;
-    height: 6vh;
+    min-height: 6vh;
     margin: 0;
     /* /* border: 1px solid black; * */
   }

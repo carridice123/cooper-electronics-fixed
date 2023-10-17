@@ -17,18 +17,21 @@ const Electronics = () => {
               alt="image"
               width={600}
               height={600}
+              className={styles.img}
             ></Image>
             <Image
               src="/img26.jpg"
               alt="image"
               width={600}
               height={600}
+              className={styles.img}
             ></Image>
             <Image
               src="/img25.jpg"
               alt="image"
               width={600}
               height={600}
+              className={styles.img}
             ></Image>
           </section>
           <section className={styles.thirdsec}>
@@ -37,18 +40,21 @@ const Electronics = () => {
               alt="image"
               width={600}
               height={600}
+              className={styles.img}
             ></Image>
             <Image
               src="/img32.jpg"
               alt="image"
               width={600}
               height={600}
+              className={styles.img}
             ></Image>
             <Image
               src="/img33.jpg"
               alt="image"
               width={600}
               height={600}
+              className={styles.img}
             ></Image>
           </section>
         </section>

@@ -17,14 +17,50 @@ const Entertainment = () => {
       </div>
       <section className={styles.imgcontainer}>
         <section className={styles.secondsec}>
-          <Image src="/img9.jpg" alt="image" width={600} height={600}></Image>
-          <Image src="/img15.jpg" alt="image" width={600} height={600}></Image>
-          <Image src="/img11.jpg" alt="image" width={600} height={600}></Image>
+          <Image
+            src="/img9.jpg"
+            alt="image"
+            width={600}
+            height={600}
+            className={styles.img}
+          ></Image>
+          <Image
+            src="/img15.jpg"
+            alt="image"
+            width={600}
+            height={600}
+            className={styles.img}
+          ></Image>
+          <Image
+            src="/img11.jpg"
+            alt="image"
+            width={600}
+            height={600}
+            className={styles.img}
+          ></Image>
         </section>
         <section className={styles.thirdsec}>
-          <Image src="/img25.jpg" alt="image" width={600} height={600}></Image>
-          <Image src="/img26.jpg" alt="image" width={600} height={600}></Image>
-          <Image src="/img24.jpg" alt="image" width={600} height={600}></Image>
+          <Image
+            src="/img25.jpg"
+            alt="image"
+            width={600}
+            height={600}
+            className={styles.img}
+          ></Image>
+          <Image
+            src="/img26.jpg"
+            alt="image"
+            width={600}
+            height={600}
+            className={styles.img}
+          ></Image>
+          <Image
+            src="/img24.jpg"
+            alt="image"
+            width={600}
+            height={600}
+            className={styles.img}
+          ></Image>
         </section>
       </section>
 

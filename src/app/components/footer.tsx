@@ -47,6 +47,7 @@ const Footer = () => {
           <div className={styles.openings}>
             <div className={styles.openingdays}>
               <ul>
+                <li>Sundays</li>
                 <li>Mondays</li>
                 <li>Tuesdays</li>
                 <li>Wednesday</li>
@@ -57,6 +58,7 @@ const Footer = () => {
             </div>
             <div className={styles.openinghrs}>
               <ul>
+                <li>7:00am-10:pm</li>
                 <li>7:00am-10:pm</li>
                 <li>7:00am-10:pm</li>
                 <li>7:00am-10:pm</li>

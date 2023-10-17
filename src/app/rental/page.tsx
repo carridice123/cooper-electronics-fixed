@@ -20,25 +20,30 @@ const Rental = () => {
         </div>
         <section className={styles.sec1}>
           <h1 className={styles.caryear}>2014 Axio</h1>
-          <Image
-            src="/img21.jpg"
-            alt="rent car image"
-            width={600}
-            height={600}
-          ></Image>
-          <Image
-            src="/img31.jpg"
-            alt="rent car image"
-            width={600}
-            height={600}
-          ></Image>
+          <div className={styles.rentalimgs}>
+            <Image
+              src="/img21.jpg"
+              alt="rent car image"
+              width={600}
+              height={600}
+              className={styles.img}
+            ></Image>
+            <Image
+              src="/img31.jpg"
+              alt="rent car image"
+              width={600}
+              height={600}
+              className={styles.img}
+            ></Image>
 
-          <Image
-            src="/img19.jpg"
-            alt="rent car image"
-            width={600}
-            height={600}
-          ></Image>
+            <Image
+              src="/img19.jpg"
+              alt="rent car image"
+              width={600}
+              height={600}
+              className={styles.img}
+            ></Image>
+          </div>
         </section>
         <div className={styles.chevdiscrip}>
           <ul>
@@ -51,24 +56,29 @@ const Rental = () => {
         </div>
         <section className={styles.sec2}>
           <h1>2015 Chevolete(Hearse)</h1>
-          <Image
-            src="/img34.jpg"
-            alt="rent car image"
-            width={600}
-            height={600}
-          ></Image>
-          <Image
-            src="/img27.jpg"
-            alt="rent car image"
-            width={600}
-            height={600}
-          ></Image>
-          <Image
-            src="/img17.jpg"
-            alt="rent car image"
-            width={600}
-            height={600}
-          ></Image>
+          <div className={styles.rentalimgs}>
+            <Image
+              src="/img34.jpg"
+              alt="rent car image"
+              width={600}
+              height={600}
+              className={styles.img}
+            ></Image>
+            <Image
+              src="/img27.jpg"
+              alt="rent car image"
+              width={600}
+              height={600}
+              className={styles.img}
+            ></Image>
+            <Image
+              src="/img17.jpg"
+              alt="rent car image"
+              width={600}
+              height={600}
+              className={styles.img}
+            ></Image>
+          </div>
         </section>
         <div className={styles.suzukidetails}>
           <ul>
@@ -80,25 +90,29 @@ const Rental = () => {
         </div>
         <section className={styles.sec3}>
           <h1>2009 Suzuki Swift</h1>
-
-          <Image
-            src="/img16.jpg"
-            alt="rent car image"
-            width={600}
-            height={600}
-          ></Image>
-          <Image
-            src="/img20.jpg"
-            alt="rent car image"
-            width={600}
-            height={600}
-          ></Image>
-          <Image
-            src="/img18.jpg"
-            alt="rent car image"
-            width={600}
-            height={600}
-          ></Image>
+          <div className={styles.rentalimgs}>
+            <Image
+              src="/img16.jpg"
+              alt="rent car image"
+              width={600}
+              height={600}
+              className={styles.img}
+            ></Image>
+            <Image
+              src="/img20.jpg"
+              alt="rent car image"
+              width={600}
+              height={600}
+              className={styles.img}
+            ></Image>
+            <Image
+              src="/img18.jpg"
+              alt="rent car image"
+              width={600}
+              height={600}
+              className={styles.img}
+            ></Image>
+          </div>
         </section>
       </section>
 
