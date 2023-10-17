@@ -10,6 +10,7 @@ const Socials = () => {
             alt="facebook image"
             width={40}
             height={40}
+            className={styles.navulimg}
           ></Image>
         </li>
         <li>
@@ -18,10 +19,17 @@ const Socials = () => {
             alt="twitter"
             width={40}
             height={40}
+            className={styles.navulimg}
           ></Image>
         </li>
         <li>
-          <Image src="/tiktok.png" alt="tiktok" width={40} height={40}></Image>
+          <Image
+            src="/tiktok.png"
+            alt="tiktok"
+            width={40}
+            height={40}
+            className={styles.navulimg}
+          ></Image>
         </li>
         <li>
           <Image
@@ -29,6 +37,7 @@ const Socials = () => {
             alt="instagram"
             width={40}
             height={40}
+            className={styles.navulimg}
           ></Image>
         </li>
       </ul>

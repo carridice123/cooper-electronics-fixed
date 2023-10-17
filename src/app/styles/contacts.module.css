@@ -4,7 +4,9 @@
     width: 100%;
     height: 25rem;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 2px 0px;
-    margin-top: 15.8rem;
+    /* margin-top: 15.8rem; */
+    /* padding-top: 2.58rem; */
+    background-color: #f9f0fb;
   }
   .sec2 {
     padding: 130px;
@@ -49,13 +51,14 @@
   }
   .contactsh1 {
     font-weight: 900;
+    font-size: 1.87rem;
   }
   .circle {
     border-radius: 74%;
     width: 54px;
     height: 54px;
     padding: 10px;
-    background: #fff;
+    /* background: #f00; */
     border: 3px solid #000;
     color: #000;
     text-align: center;

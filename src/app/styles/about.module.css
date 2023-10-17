@@ -6,11 +6,14 @@
   margin-top: 30px;
   padding-top: 30px;
   min-height: 70vh;
+  background-color: #f9f0fb;
 }
 .sec2 {
   padding-left: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: #f46b45;
+  color: #fff;
 }
 .divheading {
   /* border: 1px solid black; */
@@ -20,6 +23,7 @@
 
 .heading {
   font-weight: 900;
+  padding-bottom: 0.9rem;
 }
 .div1 {
   /* border: 1px solid black; */
@@ -30,10 +34,14 @@
   /* border: 1px solid black; */
   /* padding-top: 10px; */
   padding-left: 10px;
+  background-color: #000;
+  color: #fff;
 }
 .div2ul {
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 0.8rem;
+  padding-top: 1rem;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
 }
 .div3 {
   display: flex;
@@ -53,15 +61,28 @@
   height: 14px;
 }
 .servicesul {
-  padding-top: 20px;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
 }
 .servicesh1 {
   font-weight: 900;
 }
 .servicesnaddress {
   /* border: 1px solid black; */
-  margin-top: 30px;
+  margin-top: 0.8rem;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
 }
+.timedesk {
+  font-size: 0.85rem;
+  padding-right: 0.99rem;
+}
+.servicesnaddress p {
+  width: 100%;
+  height: auto;
+  padding-right: 1.3rem;
+}
+
 .div3content {
   /* border: 1px solid black; */
   margin-top: 60px;
@@ -164,7 +185,7 @@
     font-size: 0.87rem;
   }
   .div2ul li {
-    border: 1px solid black;
+    border: 1px solid #000;
   }
   .headingspann {
     font-size: 0.567rem;

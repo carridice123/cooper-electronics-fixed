@@ -93,21 +93,21 @@ const Electronics = () => {
             <span className={styles.detailspan}>Further details:</span>
             <p className={styles.detailspanp1}>
               If you want to host an event like a birthday party and dont want
-              to over board.
+              to go over board.
             </p>
             <p className={styles.detailspanp1}>
               This might just be what you need, its flexible and the price is
               affordable.
             </p>
           </section>
-          <div className={styles.divprice}>
+          {/* <div className={styles.divprice}>
             <h3 className={styles.carprice}>Price</h3>
             <ul>
               <li>1day- 10,000JMD</li>
               <li>5days-35,000JMD</li>
               <li>2weeks-65,000JMD</li>
             </ul>
-          </div>
+          </div> */}
 
           <div className={styles.dividentification}>
             <h3>What Identification you need</h3>
