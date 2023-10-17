@@ -6,7 +6,6 @@ import Firstsec from "./components/firstsec";
 import Navbar from "./components/navbar";
 import Bootmobile from "./components/bootnavmobile";
 import Mobilesecnav from "./components/mobilesecnav";
-import Secondnav from "./components/secnav";
 import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +29,6 @@ export default function RootLayout({
           <Mobilesecnav />
 
           <Firstsec />
-          <Secondnav />
           {children}
           <Footer />
         </section>

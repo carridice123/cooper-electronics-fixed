@@ -4,38 +4,32 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   min-height: 290px;
   z-index: 2;
+  background-color: #ffff00;
 }
 /* dont touch */
 .sec2 {
   display: flex;
+  flex-direction: column;
   min-width: 90vw;
   margin-left: 20px;
   /* border: 1px solid black; */
   min-height: 160px;
 }
+.desksecnav {
+  width: 100vw;
+  height: auto;
+}
 .logo {
-  width: 30%;
+  display: flex;
+  width: 100vw;
+  height: auto;
   /* border: 1px solid black; */
-  padding-top: 40px;
+  padding-top: 1.4rem;
 }
 .mediahelp {
   display: none;
 }
-.goback {
-  font-weight: 900;
-  display: flex;
-  margin-left: 2rem;
 
-  /* border: 1px solid black; */
-}
-.gobackdiv {
-  width: fit-content;
-}
-.goback:hover {
-  background-color: #1888ff;
-  border-radius: 4px;
-  transition: all 0.2s ease-out;
-}
 .socials {
   margin-left: 240px;
 
@@ -80,6 +74,9 @@
     min-height: 8vh;
     /* border: 1px solid black; */
     padding-bottom: 6rem;
+  }
+  .desksecnav {
+    display: none;
   }
   .contacts {
     display: flex;

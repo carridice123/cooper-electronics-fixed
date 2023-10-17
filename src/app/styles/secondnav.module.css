@@ -1,15 +1,16 @@
 .navul {
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
 }
 .sec2 {
-  width: 70%;
-  color: white;
-  height: 200px;
+  width: 95vw;
+  color: #020617;
+  height: 5rem;
+  font-weight: 900;
   z-index: 2;
-  background-color: black;
+  /* background-color: black; */
   clear: both;
+  padding-top: 1.4rem;
 }
 .navli {
   text-decoration: underline;
@@ -19,15 +20,30 @@
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
-.sec {
-  width: 100%;
-  float: left;
-  margin-top: -100px;
-  z-index: 3;
-  clear: both;
+.goback {
+  font-weight: 900;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-left: 2rem;
+
+  /* border: 1px solid black; */
+}
+.gobackdiv {
+  width: fit-content;
+}
+.goback:hover {
+  background-color: #1888ff;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+.sec {
+  /* width: 100%; */
+  /* float: left; */
+  /* margin-top: -100px; */
+  z-index: 3;
+  /* clear: both; */
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
 }
 
 @media only screen and (max-width: 899px) {
