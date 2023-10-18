@@ -65,7 +65,7 @@ const Rental = () => {
               className={styles.img}
             ></Image>
             <Image
-              src="/img27.jpg"
+              src="/img28.jpg"
               alt="Chevolete rental car image"
               width={600}
               height={600}
