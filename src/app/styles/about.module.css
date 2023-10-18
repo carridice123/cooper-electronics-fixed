@@ -75,7 +75,11 @@
 }
 .timedesk {
   font-size: 0.85rem;
-  padding-right: 0.99rem;
+  padding-right: 1.3rem;
+}
+.timesdesk {
+  font-size: 0.85rem;
+  padding-right: 1.3rem;
 }
 .servicesnaddress p {
   width: 100%;
@@ -150,6 +154,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
+    color: black;
     background-color: #f9fafb;
   }
   .servicesh1 {
@@ -197,15 +202,16 @@
   }
   .time {
     font-size: 0.85rem;
-    padding-top: 0.9rem;
+    padding-top: 0.4rem;
   }
   .times {
     font-size: 0.85rem;
-    padding-top: 1.3rem;
+    padding-top: 0.5rem;
   }
   .divimg {
     width: 12vw;
-    height: 6vh;
+    height: 4vh;
+    padding-top: 0.098rem;
   }
   .timesdesk {
     display: none;

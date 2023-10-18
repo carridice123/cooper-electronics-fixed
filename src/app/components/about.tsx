@@ -6,7 +6,7 @@ const About = () => {
     <section className={styles.sec1}>
       <div className={styles.divheading}>
         <h1 className={styles.heading}>
-          About us
+          About Us
           <span className={styles.headingspann}>
             28A WEST PARK ave, Maypen Clarendon
           </span>

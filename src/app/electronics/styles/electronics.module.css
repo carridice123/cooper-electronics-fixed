@@ -1,3 +1,7 @@
+.sec1 {
+  background-color: #f0f0fb;
+}
+
 .secondsec {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
@@ -11,6 +15,10 @@
   font-size: 30px;
 }
 
+.sectcontent {
+  margin-left: 0.9rem;
+}
+
 .installh2 {
   font-weight: 700;
   font-size: 20px;
@@ -22,7 +30,9 @@
 .cardiscription {
   margin-top: 40px;
 }
-
+.divrentalh1 {
+  margin-left: 0.9rem;
+}
 .detailsdiv {
   margin-top: 20px;
 }
