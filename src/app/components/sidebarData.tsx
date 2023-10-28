@@ -20,7 +20,7 @@ export const SidebarData = [
   },
   {
     title: "Construction",
-    path: "/construction",
+    path: "/contruction",
     icon: <GiIcons.GiHammerNails />,
     cName: "nav-text",
   },

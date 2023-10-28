@@ -54,12 +54,13 @@
     margin-top: 12rem;
   }
   .copyrights {
-    border: 1px solid #020617;
+    /* border: 1px solid #020617; */
+    margin-left: 0;
     text-align: center;
     margin-top: auto;
     padding-top: 10px;
     height: 40px;
-    width: 100%;
+    width: 100vw;
     color: white;
     background-color: #020617;
   }
@@ -142,5 +143,6 @@
     text-align: center;
     padding-top: 1rem;
     margin-top: auto;
+    margin-left: 0;
   }
 }
