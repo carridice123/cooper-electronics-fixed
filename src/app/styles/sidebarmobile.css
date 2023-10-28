@@ -1,14 +1,16 @@
 .navbar {
   background-color: #060b26;
-  height: 80px;
+  height: 7.5vh;
+  width: 100vw;
   display: flex;
   justify-content: start;
   align-items: center;
   z-index: 9;
+  position: fixed;
 }
 
 .menu-bars {
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-size: 2rem;
   background: none;
   z-index: 9;
@@ -16,7 +18,7 @@
 
 .nav-menu {
   background-color: #060b26;
-  width: 250px;
+  width: 280px;
   height: 100vh;
   display: flex;
   justify-content: center;
