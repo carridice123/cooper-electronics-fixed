@@ -16,7 +16,9 @@
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   padding-top: 0.5rem;
-  background-color: #020617;
+  /* background-color: #020617; */
+  background-color: #060b26;
+
   color: #fff;
   width: 95%;
 }

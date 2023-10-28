@@ -6,17 +6,27 @@
   width: 95vw;
   color: #020617;
   height: 5rem;
-  font-weight: 900;
+  font-weight: 700;
   z-index: 2;
   /* background-color: black; */
   clear: both;
   padding-top: 1.4rem;
 }
 .navli {
-  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f234f;
 }
+
+.navli.active::after {
+  background-color: #ffffff;
+}
+
 .navli:hover {
-  background-color: #1888ff;
+  color: #ff2d4f;
+  font-weight: 900;
+  font-size: 0.98rem;
+
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -27,14 +37,15 @@
 
   /* border: 1px solid black; */
 }
+.goback:hover {
+  color: #ff2d4f;
+  font-weight: 900;
+  font-size: 0.98rem;
+}
 .gobackdiv {
   width: fit-content;
 }
-.goback:hover {
-  background-color: #1888ff;
-  border-radius: 4px;
-  transition: all 0.2s ease-out;
-}
+
 .sec {
   /* width: 100%; */
   /* float: left; */
