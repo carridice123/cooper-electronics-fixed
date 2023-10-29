@@ -38,14 +38,14 @@
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
-.divlis:hover {
+/* .divlis :hover {
   color: #ff2d4f;
   font-weight: 900;
   font-size: 0.98rem;
 
   border-radius: 4px;
   transition: all 0.2s ease-out;
-}
+} */
 .goback {
   font-weight: 900;
   display: flex;
@@ -74,7 +74,7 @@
 }
 
 @media only screen and (max-width: 899px) {
-  .sec {
+  .navul {
     /* float: left;
     margin-top: -550px;
     z-index: 2;

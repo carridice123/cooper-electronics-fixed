@@ -36,9 +36,9 @@ const Secondnav = () => {
             href={link}
             className={`${
               pathname === link
-                ? `border-solid border-b-4 border-color: rgb(0 0 0);`
+                ? `border-solid border-b-4 text-slate-800  border-color: rgb(0 0 0);`
                 : ``
-            } border-black border-solid`}
+            } border-black hover:text-blue-900 border-solid`}
           >
             {title}
           </Link>
