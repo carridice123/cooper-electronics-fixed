@@ -2,6 +2,14 @@
   display: flex;
   justify-content: space-around;
 }
+.divlis {
+  /* border: 1px solid black; */
+  width: 50vw;
+  height: 4vh;
+  display: flex;
+  justify-content: space-around;
+}
+
 .sec2 {
   width: 95vw;
   color: #020617;
@@ -23,6 +31,14 @@
 }
 
 .navli:hover {
+  color: #ff2d4f;
+  font-weight: 900;
+  font-size: 0.98rem;
+
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+.divlis:hover {
   color: #ff2d4f;
   font-weight: 900;
   font-size: 0.98rem;
