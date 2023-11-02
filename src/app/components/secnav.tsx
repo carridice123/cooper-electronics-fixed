@@ -11,7 +11,7 @@ const Secondnav = () => {
   const navLinks = [
     // { title: "Home", link: "/" },
     { title: "Electronics", link: "/electronics" },
-    { title: "Contruction", link: "/contruction" },
+    { title: "Construction", link: "/contruction" },
     { title: "Cars on Rental", link: "/rental" },
     { title: "Entertainment", link: "/entertainment" },
   ];
@@ -36,7 +36,7 @@ const Secondnav = () => {
             href={link}
             className={`${
               pathname === link
-                ? `border-solid border-b-4 text-slate-800  border-color: rgb(0 0 0);`
+                ? `border-solid border-b-4 text-slate-500  font-black text-base border-color: rgb(0 0 0);`
                 : ``
             } border-black hover:text-blue-900 border-solid`}
           >

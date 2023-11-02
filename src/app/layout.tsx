@@ -2,9 +2,10 @@ import "./globals.css";
 import styles from "./styles/layout.module.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Firstsec from "./components/firstsec";
 import Navbar from "./components/navbar";
 // import Bootmobile from "./components/bootnavmobile";
+import Firstsec from "./components/firstsec";
+
 import Sidebarmobile from "./components/sidebarmobile";
 import Mobilesecnav from "./components/mobilesecnav";
 import Footer from "./components/footer";
@@ -25,11 +26,12 @@ export default function RootLayout({
       <body className={inter.className}>
         <section className={styles.paren}>
           <Navbar />
+          <Firstsec />
+
           <Sidebarmobile />
           {/* <Bootmobile /> */}
           <Mobilesecnav />
 
-          <Firstsec />
           {children}
           <Footer />
         </section>

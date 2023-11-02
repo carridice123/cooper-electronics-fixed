@@ -42,9 +42,25 @@
   margin-top: 0.06rem;
   background-color: #f0f0fb;
 }
-.divchoose {
+/* .divchoose {
   font-weight: 900;
   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+.rentalheadimg {
+  width: 100vw;
+  height: 30vh;
+}
+.headimg {
+  width: 100vw;
+
+  height: 35vh;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .rentalimgs {

@@ -5,19 +5,19 @@ import About from "../components/about";
 const Rental = () => {
   return (
     <section className={styles.mainsec}>
+      <section className={styles.headimg}>
+        <Image
+          src="/rental3.png"
+          alt="rental cars in maypen clarendon"
+          width={2300}
+          height={2300}
+          className={styles.rentalheadimg}
+        ></Image>
+      </section>
       <div className={styles.divchoos}>
-        <h1 className={styles.divchoose}>Cars For Rental</h1>
         <p className={styles.price}>Give us a call or prices are reasonable</p>
       </div>
       <section className={styles.imgcontainer}>
-        {/* <div className={styles.cardiscrip}>
-          <ul>
-            <li>2014 axio</li>
-            <li>15,000JMD for 5day</li>
-            <li>24,000JMD for 2weeks</li>
-            <li>35,000JMD for 1month</li>
-          </ul>
-        </div> */}
         <section className={styles.sec1}>
           <h1 className={styles.caryear}>2014 Axio</h1>
           <div className={styles.rentalimgs}>
@@ -45,15 +45,7 @@ const Rental = () => {
             ></Image>
           </div>
         </section>
-        {/* <div className={styles.chevdiscrip}>
-          <ul>
-            <li>2014 chevolete we converted into(hearse)</li>
-            <li>15,000JMD for 1day</li>
-            <li>
-              45,000JMD and we convert your vehicle to hearse(conditions apply)
-            </li>
-          </ul>
-        </div> */}
+
         <section className={styles.sec2}>
           <h1>2015 Chevolete(Hearse)</h1>
           <div className={styles.rentalimgs}>
@@ -80,14 +72,7 @@ const Rental = () => {
             ></Image>
           </div>
         </section>
-        {/* <div className={styles.suzukidetails}>
-          <ul>
-            <li>2009 suzuki Swift</li>
-            <li>9,000JMD for 1week</li>
-            <li>18,000JMD for 2weeks</li>
-            <li>30,000JMD</li>
-          </ul>
-        </div> */}
+
         <section className={styles.sec3}>
           <h1>2009 Suzuki Swift</h1>
           <div className={styles.rentalimgs}>

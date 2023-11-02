@@ -1,23 +1,58 @@
 .firstsec {
-  margin-top: 40px;
   background-color: #f0f0fb;
 }
 
-.secondsec {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+.entertainmenthead {
+  width: 100vw;
+  height: 25vh;
 }
-.thirdsec {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+.headimg {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  height: 20vh;
 }
-.entertainment h1 {
+.entertainment {
   font-weight: 900;
   font-size: 30px;
-  margin-left: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 0.9rem;
+
+  transform: translate(-50%, -50%);
+}
+.entertainmentcontent {
+  width: 100vw;
+  height: auto;
+  padding-top: 2rem;
+}
+.secondsec {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  gap: 0.3rem;
+}
+.thirdsec {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  gap: 0.3rem;
+}
+.img {
+  width: 30vw;
+  height: 39vh;
 }
 .imgcontainer {
   margin-top: 30px;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 .divevents {
   margin-top: 30px;

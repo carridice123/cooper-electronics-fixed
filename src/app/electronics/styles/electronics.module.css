@@ -1,68 +1,192 @@
-.sec1 {
-  background-color: #f0f0fb;
-}
+@media (min-width: 900px) {
+  .imgcontain {
+    display: none;
+  }
 
-.secondsec {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-}
-.thirdsec {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-}
-.divrentalh1 {
-  font-weight: 900;
-  font-size: 30px;
-}
+  .sec1 {
+    background-color: #f0f0fb;
+    width: 100vw;
+    height: auto;
+  }
 
-.sectcontent {
-  margin-left: 0.9rem;
-}
+  .secondsec {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 0.5rem;
+  }
+  .thirdsec {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 0.3rem;
+  }
+  .img {
+    width: 80vw;
+    /* background-size: cover; */
+    height: 19vh;
+  }
+  .headerimg {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 20vh;
+    /* border: 3px solid black; */
+  }
+  .divrentalh1 {
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 0.9rem;
 
-.installh2 {
-  font-weight: 700;
-  font-size: 20px;
-  text-decoration: underline;
-}
-.divul {
-  margin-top: 10px;
-}
-.cardiscription {
-  margin-top: 40px;
-}
-.divrentalh1 {
-  margin-left: 0.9rem;
-}
-.detailsdiv {
-  margin-top: 20px;
-}
-.detailspan {
-  text-decoration: underline;
-}
-.divprice {
-  margin-top: 20px;
-}
-.carprice {
-  font-weight: 800;
-  font-size: 20px;
-  text-decoration: underline;
-}
-.ulidentification {
-  font-weight: 800;
-  font-size: 20px;
-}
-.dividentification h3 {
-  margin-top: 20px;
-  font-weight: 600;
-  font-size: 15px;
-  text-decoration: underline;
-}
+    transform: translate(-50%, -50%);
+  }
+  /* changes to desktop layout for electronics */
+  .divscontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .div1,
+  .div2 {
+    display: flex;
+    gap: 1.2rem;
+  }
+  .div1content {
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+  }
+  .div1 {
+    padding-top: 5rem;
+  }
+  .replacekeys {
+    font-size: 0.9912rem;
+    color: #f00;
+  }
+  .replacekeys,
+  .h1keys,
+  .h2fix {
+    font-weight: 800;
+  }
+  .h1keys {
+    font-size: 1.8rem;
+    color: #f00;
+  }
+  .h2fix {
+    font-size: 1.3rem;
+    color: #f00;
+  }
+  /* ---------------------------- */
+  .div2p {
+    padding-top: 1.8rem;
+  }
+  .soundbases {
+    font-size: 1.8rem;
+    color: #f00;
+  }
+  .soundbases,
+  .setup {
+    font-weight: 800;
+  }
+  .setup {
+    font-size: 1.3rem;
+    color: #f00;
+  }
+  /* ----------------------------- */
+  .cameradiv {
+    display: flex;
+    gap: 1rem;
+  }
+  .cameradivp {
+    padding-top: 1.8rem;
+    padding-left: 0.7rem;
+  }
+  .cameradivp1,
+  .cameradivp2 {
+    font-weight: 800;
+  }
+  .cameradivp1 {
+    font-size: 1.97rem;
+    color: #f00;
+  }
+  .cameradivp2 {
+    font-size: 1.45rem;
+    color: #f00;
+  }
+  /* electronics desktop finish*/
+  .sectcontent {
+    margin-left: 0.9rem;
+  }
 
-.imgcontainer {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  flex-wrap: wrap;
+  .installh2 {
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .divul {
+    margin-top: 10px;
+  }
+  .cardiscription {
+    margin-top: 40px;
+  }
+
+  .detailsdiv {
+    margin-top: 20px;
+  }
+  .detailspan {
+    text-decoration: underline;
+  }
+  .divprice {
+    margin-top: 20px;
+  }
+  .carprice {
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .ulidentification {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .dividentification h3 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: underline;
+  }
+  .image {
+    width: 100vw;
+    height: 19vh;
+  }
+  .imgcontainer {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 1px solid #000; */
+    flex-wrap: wrap;
+
+    padding-left: 8rem;
+  }
+  .gallery {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1.89;
+    font-weight: 800;
+  }
+  .imagecontainer2 {
+    /* border: 1px solid #000; */
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    /* margin-left: 3rem; */
+    width: 80vw;
+    height: 90vh;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 899px) {
@@ -79,7 +203,7 @@
     color: #f46b45;
   }
   .imgcontain {
-    display: flex;
+    display: none;
     flex-direction: column;
     margin-top: 3rem;
     margin-right: 0.5rem;
@@ -119,14 +243,46 @@
     flex-direction: column;
     gap: 0.9rem;
   }
-  .img {
-    width: 100%;
-    height: auto;
+  .image {
+    width: 100vw;
+    height: 18vh;
   }
-}
+  /* query for electronics mobile header */
+  .headerimg {
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .imgelec {
+    width: 60vw;
+    height: 25vh;
+  }
+  .div1,
+  .div2,
+  .cameradiv {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .div1content,
+  .div2p,
+  .cameradivp {
+    text-align: center;
+  }
+  .divrentalh1 {
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 0.9rem;
 
-@media (min-width: 900px) {
-  .imgcontain {
-    display: none;
+    transform: translate(-50%, -50%);
   }
 }

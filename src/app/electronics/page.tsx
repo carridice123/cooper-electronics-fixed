@@ -5,11 +5,19 @@ import About from "../components/about";
 const Electronics = () => {
   return (
     <section className={styles.sec1}>
-      <section>
+      <div className={styles.headerimg}>
+        <Image
+          src="/electronicspage.png"
+          alt="electronics header"
+          width={530}
+          height={530}
+          className={styles.image}
+        ></Image>
         <div className={styles.divrentalh1}>
           <h1>Electronics Installation</h1>
         </div>
-
+      </div>
+      <section>
         <section className={styles.imgcontain}>
           <section className={styles.secondsec}>
             <Image
@@ -58,77 +66,117 @@ const Electronics = () => {
             ></Image>
           </section>
         </section>
-
-        <section className={styles.sectcontent}>
-          <section className={styles.sectcontent2}>
-            <div className={styles.divinstall}>
-              <h2 className={styles.installh2}>We install:</h2>
-            </div>
-            <div className={styles.divul}></div>
-            <ul className={styles.ultrackers}>
-              <li>Tracking Devices,</li>
-              <li>Car & House Alarm Systems,</li>
-              <li>Sound Systems & Camera Systems</li>
-              <li>
-                You name it, we install it{" "}
-                <h3>give us an call our prices are affordable.</h3>
-              </li>
-            </ul>
-          </section>
-
-          <section className={styles.cardiscription}>
-            <div className={styles.discriptiondiv}>
-              <p>
-                This Honda (name) year 2006 was modified into a button push to
-                start vehicle
-              </p>
-              <p>
-                We also installed a high based music stereo systems for you and
-                design it to also work with your phone wirelessly.
-              </p>
-            </div>
-
-            <div className={styles.detailsdiv}></div>
-
-            <span className={styles.detailspan}>Further details:</span>
-            <p className={styles.detailspanp1}>
-              If you want to host an event like a birthday party and dont want
-              to go over board.
-            </p>
-            <p className={styles.detailspanp1}>
-              This might just be what you need, its flexible and the price is
-              affordable.
-            </p>
-          </section>
-          {/* <div className={styles.divprice}>
-            <h3 className={styles.carprice}>Price</h3>
-            <ul>
-              <li>1day- 10,000JMD</li>
-              <li>5days-35,000JMD</li>
-              <li>2weeks-65,000JMD</li>
-            </ul>
-          </div> */}
-
-          <div className={styles.dividentification}>
-            <h3>What Identification you need</h3>
-            <ul className={styles.ulidentification}>
-              <li>id/valid identification</li>
-              <li>trn</li>
-              <li>cash in hand</li>
-            </ul>
-          </div>
-        </section>
       </section>
+      {/* desktop sec */}
+      <section className={styles.divscontainer}>
+        <div className={styles.div1}>
+          <Image
+            src="/img26.jpg"
+            alt="image"
+            width={600}
+            height={600}
+            className={styles.imgelec}
+          ></Image>
+          <div className={styles.div1content}>
+            <h1 className={styles.h1keys}>
+              Ever forget your keys or your car remote just wont work?
+            </h1>
+            <h2 className={styles.h2fix}>We can fix that for you!</h2>
+            <p className={styles.replacekeys}>
+              From your car remote to replacing the keys you cant find, keyless
+              ingnition is a game changer
+            </p>
+            <p className={styles.replacekeys}>
+              you can now start you car with a push of a button
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.div2}>
+          <Image
+            src="/img24.jpg"
+            alt="image"
+            width={600}
+            height={600}
+            className={styles.imgelec}
+          ></Image>
+          <div className={styles.div2p}>
+            <p className={styles.soundbases}>We build custom sound basses</p>
+            <p className={styles.setup}>
+              Come with your Vehicle and we handle the set up 100% hassle free.
+            </p>
+          </div>
+        </div>
+        <div className={styles.cameradiv}>
+          <Image
+            src="/camera.png"
+            alt="we provide Camera installment"
+            width={600}
+            height={600}
+            className={styles.imgelec}
+          ></Image>
+          <div className={styles.cameradivp}>
+            <p className={styles.cameradivp1}>
+              Get more security for your home and business
+            </p>
+            <p className={styles.cameradivp2}>
+              We install and repair camera systems
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className={styles.imgcontainer}>
-        <section className={styles.secondsec}>
-          <Image src="/img13.jpg" alt="image" width={600} height={600}></Image>
-          <Image src="/img26.jpg" alt="image" width={600} height={600}></Image>
-          <Image src="/img25.jpg" alt="image" width={600} height={600}></Image>
-        </section>
-        <section className={styles.thirdsec}>
-          <Image src="/img23.jpg" alt="image" width={600} height={600}></Image>
-          <Image src="/img32.jpg" alt="image" width={600} height={600}></Image>
-          <Image src="/img33.jpg" alt="image" width={600} height={600}></Image>
+        <div className={styles.gallery}>
+          <h2>Gallery</h2>
+        </div>
+        <section className={styles.imagecontainer2}>
+          <section className={styles.secondsec}>
+            <Image
+              src="/img13.jpg"
+              alt="image"
+              width={600}
+              height={600}
+              className={styles.image}
+            ></Image>
+            <Image
+              src="/img26.jpg"
+              alt="image"
+              width={600}
+              height={600}
+              className={styles.image}
+            ></Image>
+            <Image
+              src="/img25.jpg"
+              alt="image"
+              width={600}
+              height={600}
+              className={styles.image}
+            ></Image>
+          </section>
+          <section className={styles.thirdsec}>
+            <Image
+              src="/img23.jpg"
+              alt="image"
+              width={600}
+              height={600}
+              className={styles.image}
+            ></Image>
+            <Image
+              src="/img32.jpg"
+              alt="image"
+              width={600}
+              height={600}
+              className={styles.image}
+            ></Image>
+            <Image
+              src="/img33.jpg"
+              alt="image"
+              width={600}
+              height={600}
+              className={styles.image}
+            ></Image>
+          </section>
         </section>
       </section>
 

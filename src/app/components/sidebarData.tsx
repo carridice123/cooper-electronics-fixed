@@ -30,4 +30,10 @@ export const SidebarData = [
     icon: <IoIcons.IoMdPeople />,
     cName: "nav-text",
   },
+  {
+    title: "Rental cars",
+    path: "/rental",
+    icon: <FaIcons.FaCarSide />,
+    cName: "nav-text",
+  },
 ];
