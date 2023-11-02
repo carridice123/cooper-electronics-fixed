@@ -30,7 +30,8 @@
 //   </section>
 // </section>
 
-<section className={styles.sectcontent}>
+{
+  /* <section className={styles.sectcontent}>
   <section className={styles.sectcontent2}>
     <div className={styles.divinstall}>
       <h2 className={styles.installh2}>We install:</h2>
@@ -70,22 +71,25 @@
       This might just be what you need, its flexible and the price is
       affordable.
     </p>
-  </section>
-  {/* <div className={styles.divprice}>
+  </section> */
+}
+{
+  /* <div className={styles.divprice}>
             <h3 className={styles.carprice}>Price</h3>
             <ul>
               <li>1day- 10,000JMD</li>
               <li>5days-35,000JMD</li>
               <li>2weeks-65,000JMD</li>
             </ul>
-          </div> */}
+          </div> */
+}
 
-  <div className={styles.dividentification}>
-    <h3>What Identification you need</h3>
-    <ul className={styles.ulidentification}>
-      <li>id/valid identification</li>
-      <li>trn</li>
-      <li>cash in hand</li>
-    </ul>
-  </div>
-</section>;
+//   <div className={styles.dividentification}>
+//     <h3>What Identification you need</h3>
+//     <ul className={styles.ulidentification}>
+//       <li>id/valid identification</li>
+//       <li>trn</li>
+//       <li>cash in hand</li>
+//     </ul>
+//   </div>
+// </section>;
