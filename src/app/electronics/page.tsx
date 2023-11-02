@@ -69,14 +69,69 @@ const Electronics = () => {
       </section>
       {/* desktop sec */}
       <section className={styles.divscontainer}>
+        <div className={styles.cameradiv}>
+          <div className={styles.imgradius}>
+            <Image
+              src="/camera.png"
+              alt="we provide Camera installment"
+              width={600}
+              height={600}
+              className={styles.imgelec}
+            ></Image>
+          </div>
+
+          <div className={styles.cameradivp}>
+            <p className={styles.cameradivp1}>
+              Get more security for your home and business
+            </p>
+            <p className={styles.cameradivp2}>
+              We install and repair camera systems
+            </p>
+          </div>
+        </div>
+        <div className={styles.powersaw}>
+          <div className={styles.imgradius}>
+            <Image
+              src="/powersaw.png"
+              alt="Power saw for sale in maypen clarendon"
+              width={300}
+              height={300}
+              className={styles.imgelec}
+            ></Image>
+          </div>
+
+          <div className={styles.powersawchild}>
+            <h1 className={styles.powersawh1}>
+              {" "}
+              Power Saw and more electrical tools
+            </h1>
+          </div>
+        </div>
+        <div className={styles.electricaldrill}>
+          <div className={styles.imgradius}>
+            <Image
+              src="/electricaldrill.png"
+              alt="cheap electrical for sale in maypen clarendow Jamaica"
+              width={300}
+              height={300}
+              className={styles.imgelec}
+            ></Image>
+          </div>
+          <div className={styles.electricalldrillchild}>
+            <h1>Electricall drills for reasonable price</h1>
+          </div>
+        </div>
         <div className={styles.div1}>
-          <Image
-            src="/img26.jpg"
-            alt="image"
-            width={600}
-            height={600}
-            className={styles.imgelec}
-          ></Image>
+          <div className={styles.imgradius}>
+            <Image
+              src="/img26.jpg"
+              alt="image"
+              width={600}
+              height={600}
+              className={styles.imgelec}
+            ></Image>
+          </div>
+
           <div className={styles.div1content}>
             <h1 className={styles.h1keys}>
               Ever forget your keys or your car remote just wont work?
@@ -93,34 +148,20 @@ const Electronics = () => {
         </div>
 
         <div className={styles.div2}>
-          <Image
-            src="/img24.jpg"
-            alt="image"
-            width={600}
-            height={600}
-            className={styles.imgelec}
-          ></Image>
+          <div className={styles.imgradius}>
+            <Image
+              src="/img24.jpg"
+              alt="image"
+              width={600}
+              height={600}
+              className={styles.imgelec}
+            ></Image>
+          </div>
+
           <div className={styles.div2p}>
             <p className={styles.soundbases}>We build custom sound basses</p>
             <p className={styles.setup}>
               Come with your Vehicle and we handle the set up 100% hassle free.
-            </p>
-          </div>
-        </div>
-        <div className={styles.cameradiv}>
-          <Image
-            src="/camera.png"
-            alt="we provide Camera installment"
-            width={600}
-            height={600}
-            className={styles.imgelec}
-          ></Image>
-          <div className={styles.cameradivp}>
-            <p className={styles.cameradivp1}>
-              Get more security for your home and business
-            </p>
-            <p className={styles.cameradivp2}>
-              We install and repair camera systems
             </p>
           </div>
         </div>

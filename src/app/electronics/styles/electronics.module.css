@@ -193,6 +193,11 @@
   .imgcontainer {
     display: none;
   }
+  .sec1 {
+    background-color: #f0f0fb;
+    width: 100vw;
+    height: auto;
+  }
   .divrentalh1 {
     font-weight: 900;
     font-size: 26px;
@@ -255,13 +260,29 @@
     text-align: center;
     color: white;
   }
-  .imgelec {
-    width: 60vw;
-    height: 25vh;
+  .divscontainer {
+    padding-top: 3rem;
   }
+  .imgelec {
+    border-radius: 50%;
+    padding-top: 0.3rem;
+    width: 50vw;
+    height: 34.4vh;
+  }
+  .imgradius {
+    border-radius: 50%;
+    width: 52vw;
+    height: 37vh;
+    border: 1px solid #ff2d4f;
+    display: flex;
+    justify-content: center;
+  }
+
   .div1,
   .div2,
-  .cameradiv {
+  .cameradiv,
+  .powersaw,
+  .electricaldrill {
     width: 100vw;
     height: 60vh;
     display: flex;

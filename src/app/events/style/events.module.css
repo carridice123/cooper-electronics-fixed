@@ -5,11 +5,12 @@
 .entertainmenthead {
   width: 100vw;
   height: 25vh;
+  object-fit: cover;
 }
 .headimg {
   position: relative;
   text-align: center;
-  color: white;
+  color: #a52a2a;
   width: 100vw;
   height: 20vh;
 }

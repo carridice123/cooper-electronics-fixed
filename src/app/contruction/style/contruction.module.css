@@ -111,7 +111,7 @@
   .sec2 {
     width: 100vw;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -173,7 +173,7 @@
     width: 85vw;
     height: 55vh;
     border-radius: 50%;
-    border: 1px solid #00a;
+    border: 1px solid #ff2d4f;
   }
   .img {
     width: 100%;

@@ -13,7 +13,7 @@ const Secondnav = () => {
     { title: "Electronics", link: "/electronics" },
     { title: "Construction", link: "/contruction" },
     { title: "Cars on Rental", link: "/rental" },
-    { title: "Entertainment", link: "/entertainment" },
+    { title: "Events", link: "/events" },
   ];
 
   return (

@@ -1,20 +1,20 @@
 import Image from "next/image";
-import styles from "./style/entertainment.module.css";
+import styles from "./style/events.module.css";
 import Contacts from "../components/contact";
 import About from "../components/about";
-const Entertainment = () => {
+const Events = () => {
   return (
     <section className={styles.firstsec}>
       <div className={styles.headimg}>
         <Image
-          src="/entertainment1.png"
+          src="/eventshosting.png"
           alt="entertainment spot in maypen clarendon"
           width={399}
           height={399}
           className={styles.entertainmenthead}
         ></Image>
         <div className={styles.entertainment}>
-          <h1>Entertainment</h1>
+          <h1>Events hosting</h1>
         </div>
       </div>
       <section className={styles.entertainmentcontent}>
@@ -81,4 +81,4 @@ const Entertainment = () => {
   );
 };
 
-export default Entertainment;
+export default Events;
