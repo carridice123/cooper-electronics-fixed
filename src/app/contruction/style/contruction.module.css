@@ -102,7 +102,9 @@
   }
   .constructiondiv1,
   .constructiondiv2,
-  .constructiondiv3 {
+  .constructiondiv3,
+  .constructiondiv4,
+  .constructiondiv5 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,13 +124,26 @@
     flex-direction: column;
     gap: 5rem;
   }
+  .sec4container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5.4rem;
+  }
   .sec4 {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
     width: 100%;
     height: auto;
-    margin-top: 4rem;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .gallery {
+    text-align: center;
+    font-size: 1.89rem;
+    font-weight: 800;
+    text-decoration: underline;
+    color: #ff2d4f;
   }
   .contructionmaterial {
     font-weight: 900;
@@ -176,7 +191,8 @@
     border: 1px solid #ff2d4f;
   }
   .img {
-    width: 100%;
-    height: auto;
+    width: 85vw;
+    height: 35vh;
+    border-radius: 5px;
   }
 }

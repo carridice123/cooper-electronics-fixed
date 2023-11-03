@@ -75,6 +75,35 @@ const Construction = () => {
                 </p>
               </div>
             </div>
+            <div className={styles.constructiondiv4}>
+              <div className={styles.imgradius}>
+                <Image
+                  src="/plumbing1.png"
+                  alt="plumbing services in maypen clarendon"
+                  width={300}
+                  height={300}
+                  className={styles.image}
+                ></Image>
+              </div>
+              <div className={styles.plumbingdiv}>
+                <h1>We also do plumbing</h1>
+              </div>
+            </div>
+
+            <div className={styles.constructiondiv5}>
+              <div className={styles.imgradius}>
+                <Image
+                  src="/plumbing2.png"
+                  alt="plumbing services in maypen clarendon"
+                  width={300}
+                  height={300}
+                  className={styles.image}
+                ></Image>
+              </div>
+              <div className={styles.plumbingdiv}>
+                <h1>Get that leakage fixed</h1>
+              </div>
+            </div>
           </section>
 
           {/* <div className={styles.contructioncontent}>
@@ -95,7 +124,7 @@ const Construction = () => {
           </div> */}
         </section>
         <section className={styles.sec4container}>
-          <div>
+          <div className={styles.gallery}>
             <h1>Gallery</h1>
           </div>
           <section className={styles.sec4}>

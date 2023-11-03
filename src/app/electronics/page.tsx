@@ -133,16 +133,10 @@ const Electronics = () => {
           </div>
 
           <div className={styles.div1content}>
-            <h1 className={styles.h1keys}>
-              Ever forget your keys or your car remote just wont work?
-            </h1>
-            <h2 className={styles.h2fix}>We can fix that for you!</h2>
+            <h1 className={styles.h1keys}>Upgrade to keyless ignition</h1>
+
             <p className={styles.replacekeys}>
-              From your car remote to replacing the keys you cant find, keyless
-              ingnition is a game changer
-            </p>
-            <p className={styles.replacekeys}>
-              you can now start you car with a push of a button
+              Never worry where you put your car keys again
             </p>
           </div>
         </div>

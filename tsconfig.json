@@ -27,7 +27,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/components/secnav.tsx"
+    "src/app/components/secnav.tsx",
+    "../../cooper-electronics/active.tsx"
   ],
   "exclude": ["node_modules"]
 }

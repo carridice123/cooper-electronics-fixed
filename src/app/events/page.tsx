@@ -42,14 +42,27 @@ const Events = () => {
               className={styles.constructimg}
             ></Image>
           </div>
+          <div>
+            <h1>Our bar is filled with refreshments</h1>
+          </div>
+        </section>
+        <section className={styles.hosting3}>
+          <div className={styles.imgradius}>
+            <Image
+              src="/img15.jpg"
+              alt="rent a sound in maypen clarendon"
+              width={300}
+              height={300}
+              className={styles.constructimg}
+            ></Image>
+          </div>
+          <div>
+            <h1>Book your event here (876)837-8766</h1>
+          </div>
         </section>
         <section className={styles.entertainmentcontent}>
           <div className={styles.divevents}>
-            <h2>
-              If you want a spot to keep a event,we also have a bar not only for
-              our customers, we aslo host events.
-            </h2>
-            <h2>Book your event here (876)8378766</h2>
+            <h1>Gallery</h1>
           </div>
           <section className={styles.imgcontainer}>
             <section className={styles.secondsec}>
