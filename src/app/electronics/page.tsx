@@ -118,7 +118,9 @@ const Electronics = () => {
             ></Image>
           </div>
           <div className={styles.electricalldrillchild}>
-            <h1>Electricall drills for reasonable price</h1>
+            <h1 className={styles.electricalldrillchildh1}>
+              Electrical drills for reasonable price
+            </h1>
           </div>
         </div>
         <div className={styles.div1}>

@@ -19,6 +19,9 @@ const Sidebarmobile = () => {
           <div className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </div>
+          <div className="companyname">
+            <h1>Copper-Electronics-Hardwares</h1>
+          </div>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>

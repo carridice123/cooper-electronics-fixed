@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./style/events.module.css";
 import Contacts from "../components/contact";
+// import { Caveat } from '@next/font/google'
 import About from "../components/about";
 const Events = () => {
   return (
@@ -42,7 +43,7 @@ const Events = () => {
               className={styles.constructimg}
             ></Image>
           </div>
-          <div>
+          <div className={styles.hostingdiv}>
             <h1>Our bar is filled with refreshments</h1>
           </div>
         </section>
@@ -56,8 +57,8 @@ const Events = () => {
               className={styles.constructimg}
             ></Image>
           </div>
-          <div>
-            <h1>Book your event here (876)837-8766</h1>
+          <div className={styles.hostingdiv}>
+            <h1>Book your event at (876)837-8766</h1>
           </div>
         </section>
         <section className={styles.entertainmentcontent}>

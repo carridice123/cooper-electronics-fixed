@@ -32,7 +32,7 @@ const Construction = () => {
               </div>
 
               <div className={styles.reality}>
-                <h1>Make your dreams a reality</h1>
+                <h1 className={styles.realityh2}>Make your dreams a reality</h1>
               </div>
             </div>
             <div className={styles.constructiondiv2}>
@@ -63,7 +63,8 @@ const Construction = () => {
               </div>
 
               <div className={styles.divteam}>
-                <h2 className={styles.team}>
+                <h1 className={styles.divteamh1}>Trade trust for Quality</h1>
+                {/* <h2 className={styles.team}>
                   Our contruction team is always prepared for your order
                 </h2>
                 <p className={styles.supplyp1}>
@@ -72,7 +73,7 @@ const Construction = () => {
                 </p>
                 <p className={styles.supplyp2}>
                   From the ground all the way up we have what you need.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className={styles.constructiondiv4}>
@@ -86,7 +87,7 @@ const Construction = () => {
                 ></Image>
               </div>
               <div className={styles.plumbingdiv}>
-                <h1>We also do plumbing</h1>
+                <h1 className={styles.plumbingdivh1}>We also do plumbing</h1>
               </div>
             </div>
 
@@ -101,7 +102,7 @@ const Construction = () => {
                 ></Image>
               </div>
               <div className={styles.plumbingdiv}>
-                <h1>Get that leakage fixed</h1>
+                <h1 className={styles.plumbingdivh1}>Get that leakage fixed</h1>
               </div>
             </div>
           </section>

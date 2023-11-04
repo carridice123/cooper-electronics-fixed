@@ -8,6 +8,16 @@
   z-index: 9;
   position: fixed;
 }
+.companyname {
+  color: #fff;
+  margin-left: 1rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: inherit;
+  padding-top: 1rem;
+}
 .navspann {
   display: flex;
 }
@@ -89,3 +99,8 @@ span {
     display: none;
   }
 }
+/* @media (max-width: 899px) and (min-width: 558px) {
+  .companyname {
+    margin-left: 9.5rem;
+  }
+} */

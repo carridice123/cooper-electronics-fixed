@@ -79,7 +79,7 @@
   .eventscontainer {
     width: 100vw;
     height: auto;
-    padding-top: 9rem;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 6rem;
@@ -156,5 +156,11 @@
     font-size: 1.7rem;
     font-weight: 800;
     color: #ff2d4f;
+  }
+  /* fonts  */
+  .hostingdiv h1 {
+    font-size: 1.2rem;
+    color: #ff2d4f;
+    font-weight: 800;
   }
 }

@@ -195,4 +195,16 @@
     height: 35vh;
     border-radius: 5px;
   }
+  .realityh2,
+  .orderh2,
+  .divteamh1,
+  .plumbingdivh1 {
+    font-size: 1.2rem;
+    color: #ff2d4f;
+    font-weight: 800;
+  }
+  .delivery {
+    color: #ff2d4f;
+    font-weight: 600;
+  }
 }

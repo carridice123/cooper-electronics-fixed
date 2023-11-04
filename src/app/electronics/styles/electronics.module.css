@@ -311,4 +311,21 @@
 
     transform: translate(-50%, -50%);
   }
+  /* fonts   */
+  .cameradivp1,
+  .powersawh1,
+  .soundbases,
+  .electricalldrillchildh1,
+  .h1keys {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #ff2d4f;
+  }
+  .cameradivp2,
+  .replacekeys,
+  .setup {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #ff2d4f;
+  }
 }

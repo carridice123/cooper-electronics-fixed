@@ -12,6 +12,9 @@
 
   align-items: center;
 }
+.spanhours {
+  font-weight: 400;
+}
 .div1 {
   display: flex;
   gap: 0.4rem;
