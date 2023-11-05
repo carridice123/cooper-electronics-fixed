@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from "./style/events.module.css";
 import Contacts from "../components/contact";
-// import { Caveat } from '@next/font/google'
 import About from "../components/about";
 const Events = () => {
   return (

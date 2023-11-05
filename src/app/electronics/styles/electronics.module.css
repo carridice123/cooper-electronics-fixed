@@ -1,5 +1,5 @@
 @media (min-width: 900px) {
-  .imgcontain {
+  /* .imgcontain {
     display: none;
   }
 
@@ -21,7 +21,6 @@
   }
   .img {
     width: 80vw;
-    /* background-size: cover; */
     height: 19vh;
   }
   .headerimg {
@@ -30,7 +29,6 @@
     color: white;
     width: 100vw;
     height: 20vh;
-    /* border: 3px solid black; */
   }
   .divrentalh1 {
     font-weight: 900;
@@ -42,7 +40,6 @@
 
     transform: translate(-50%, -50%);
   }
-  /* changes to desktop layout for electronics */
   .divscontainer {
     display: flex;
     flex-direction: column;
@@ -77,7 +74,6 @@
     font-size: 1.3rem;
     color: #f00;
   }
-  /* ---------------------------- */
   .div2p {
     padding-top: 1.8rem;
   }
@@ -93,7 +89,6 @@
     font-size: 1.3rem;
     color: #f00;
   }
-  /* ----------------------------- */
   .cameradiv {
     display: flex;
     gap: 1rem;
@@ -114,7 +109,6 @@
     font-size: 1.45rem;
     color: #f00;
   }
-  /* electronics desktop finish*/
   .sectcontent {
     margin-left: 0.9rem;
   }
@@ -164,7 +158,6 @@
     margin-top: 1rem;
     flex-direction: column;
     gap: 1rem;
-    /* border: 1px solid #000; */
     flex-wrap: wrap;
 
     padding-left: 8rem;
@@ -176,16 +169,161 @@
     font-weight: 800;
   }
   .imagecontainer2 {
-    /* border: 1px solid #000; */
     display: flex;
     margin-top: 1rem;
     flex-direction: column;
     gap: 0.6rem;
     flex-wrap: wrap;
-    /* margin-left: 3rem; */
     width: 80vw;
     height: 90vh;
     flex-wrap: wrap;
+  } */
+
+  .imgcontainer {
+    display: none;
+  }
+  .sec1 {
+    background-color: #f0f0fb;
+    width: 100vw;
+    height: auto;
+  }
+  .divrentalh1 {
+    font-weight: 900;
+    font-size: 26px;
+    padding-top: 1rem;
+  }
+  .installh2,
+  .detailspan {
+    color: #f46b45;
+  }
+  .imgcontain {
+    display: none;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-right: 0.5rem;
+  }
+  .ultrackers,
+  .discriptiondiv,
+  .detailspanp1 {
+    font-size: 0.85rem;
+  }
+
+  .dividentification {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-decoration: underline;
+  }
+  .ulidentification {
+    font-weight: 800;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .divprice {
+    display: none;
+  }
+  .sectcontent {
+    margin-top: 3rem;
+  }
+  .secondsec {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    /* border: 1px solid black; */
+  }
+  .thirdsec {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .image {
+    width: 100vw;
+    height: 18vh;
+    object-fit: cover;
+  }
+  /* query for electronics mobile header */
+  .headerimg {
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .divscontainer {
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    width: 100vw;
+    height: auto;
+  }
+  .imgelec {
+    border-radius: 50%;
+    width: 38vw;
+    height: 50vh;
+    padding-top: 0.52rem;
+  }
+  .imgradius {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 55vh;
+    border-radius: 50%;
+    border: 1px solid #ff2d4f;
+  }
+
+  .div1,
+  .div2,
+  .cameradiv,
+  .powersaw,
+  .electricaldrill {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .div1content,
+  .div2p,
+  .cameradivp {
+    text-align: center;
+  }
+  .divrentalh1 {
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 0.9rem;
+
+    transform: translate(-50%, -50%);
+  }
+  /* fonts   */
+  .cameradivp1,
+  .powersawh1,
+  .soundbases,
+  .electricalldrillchildh1,
+  .h1keys {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #ff2d4f;
+  }
+  .cameradivp2,
+  .replacekeys,
+  .setup {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #ff2d4f;
+  }
+  .powersawchild,
+  .div1content,
+  .electricalldrillchild,
+  .powersawchild,
+  .cameradivp {
+    border-bottom: 1px solid red;
   }
 }
 

@@ -1,5 +1,5 @@
-@media (min-width: 900) {
-  .firstsec {
+@media (min-width: 900px) {
+  /* .firstsec {
     background-color: #f0f0fb;
   }
 
@@ -59,6 +59,107 @@
   .divevents {
     margin-top: 30px;
     margin-left: 20px;
+  } */
+  .secondsec {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+  }
+  .entertainmentcontent {
+    width: 100vw;
+    height: auto;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .eventscontainer {
+    width: 100vw;
+    height: auto;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+  .entertainment {
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 0.9rem;
+
+    transform: translate(-50%, -50%);
+  }
+  .headimg {
+    position: relative;
+    text-align: center;
+    color: #a52a2a;
+    width: 100vw;
+    height: 20vh;
+  }
+  .entertainmenthead {
+    width: 100vw;
+    height: 18vh;
+    object-fit: cover;
+  }
+  .imgcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100vw;
+    height: auto;
+  }
+  .thirdsec {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+  }
+  .img {
+    width: 47vh;
+    height: auto;
+    border-radius: 5px;
+  }
+  .hosting,
+  .hosting2,
+  .hosting3 {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .imgradius {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 55vh;
+    border-radius: 50%;
+    border: 1px solid #ff2d4f;
+  }
+  .constructimg {
+    border-radius: 50%;
+    width: 38vw;
+    height: 50vh;
+    padding-top: 0.52rem;
+  }
+  .divevents {
+    text-align: center;
+  }
+  .divevents h1 {
+    text-decoration: underline;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #ff2d4f;
+  }
+  /* fonts  */
+  .hostingdiv h1 {
+    font-size: 1.2rem;
+    color: #ff2d4f;
+    font-weight: 800;
   }
 }
 @media (max-width: 899px) {

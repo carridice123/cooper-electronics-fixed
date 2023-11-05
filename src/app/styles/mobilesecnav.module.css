@@ -9,7 +9,8 @@
 .secnavcontent {
   display: flex;
   flex-direction: column;
-
+  width: 100%;
+  min-height: 8rem;
   align-items: center;
 }
 .spanhours {
