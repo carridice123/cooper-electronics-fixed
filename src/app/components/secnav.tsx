@@ -21,7 +21,7 @@ const Secondnav = () => {
       <div className={styles.gobackdiv}>
         <Link href="/" className={styles.goback}>
           <Image
-            src="/arrowleft.png"
+            src="/arrowleft.jpg"
             alt="go back img"
             width={20}
             height={20}

@@ -9,9 +9,11 @@
   justify-content: space-around;
   /* border: 1px solid black; */
 }
-.navulimg:hover {
-  background-color: #fff;
+
+.navul li:hover {
+  color: #fb7185;
   border-radius: 4px;
   /* width: fit-content; */
+  cursor: pointer;
   transition: all 0.2s ease-out;
 }

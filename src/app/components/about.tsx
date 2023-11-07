@@ -11,13 +11,7 @@ const About = () => {
             28A WEST PARK ave, Maypen Clarendon
           </span>
         </h1>
-        {/* <Image
-          src="/coppermap.jpg"
-          alt="map image"
-          width={780}
-          height={780}
-          className={styles.headingmap}
-        ></Image> */}
+
         <div className={styles.googlemaps}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.0785150066254!2d-77.25689062916071!3d17.975083748097045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edb9f2cb1ada675%3A0xdeba2b46ddad10b!2sCopper%20Electronics!5e0!3m2!1sen!2sjm!4v1697241319173!5m2!1sen!2sjm"
@@ -64,17 +58,18 @@ const About = () => {
 
         <div className={styles.servicesnaddress}>
           <p>
-            Copper Electronics and Hardwares is established in Maypen,
-            Clarendon. Where we strive to provide excellent services to our
-            customers. Our employees are competent and hardworking which gets
-            the job done in the quickest and most efficient way.
+            Copper Electronics and Hardwares has turned many bad days into good
+            days with quick solutions. Where we strive to provide hassle free
+            services to our customers. Our employees are competent and
+            hardworking which gets the job done in the quickest and most
+            efficient way.
           </p>
         </div>
         <div className={styles.div3content}>
           <div className={styles.div3}>
             <div>
               <Image
-                src="/clock.png"
+                src="/clock.jpg"
                 alt="clock image"
                 width={200}
                 height={200}
@@ -93,7 +88,7 @@ const About = () => {
           <div className={styles.div4}>
             <div>
               <Image
-                src="/phone.png"
+                src="/phone.jpg"
                 alt="phone image"
                 width={100}
                 height={100}

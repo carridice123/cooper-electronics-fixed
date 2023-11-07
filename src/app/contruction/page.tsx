@@ -7,7 +7,7 @@ const Construction = () => {
     <section className={styles.sec1}>
       <section className={styles.constructionhead}>
         <Image
-          src="/contruction7.png"
+          src="/contruction7.jpg"
           alt="construction image"
           width={1700}
           height={1700}
@@ -23,7 +23,7 @@ const Construction = () => {
             <div className={styles.constructiondiv1}>
               <div className={styles.imgradius}>
                 <Image
-                  src="/construction2.png"
+                  src="/construction2.jpg"
                   alt="construction materials in maypen clarendon"
                   width={300}
                   height={300}
@@ -38,7 +38,7 @@ const Construction = () => {
             <div className={styles.constructiondiv2}>
               <div className={styles.imgradius}>
                 <Image
-                  src="/construction1.png"
+                  src="/construction1.jpg"
                   alt="construction materials in maypen clarendon"
                   width={300}
                   height={300}
@@ -54,7 +54,7 @@ const Construction = () => {
             <div className={styles.constructiondiv3}>
               <div className={styles.imgradius}>
                 <Image
-                  src="/construction4.png"
+                  src="/construction4.jpg"
                   alt="construction image delivering sand"
                   width={300}
                   height={300}
@@ -79,7 +79,7 @@ const Construction = () => {
             <div className={styles.constructiondiv4}>
               <div className={styles.imgradius}>
                 <Image
-                  src="/plumbing1.png"
+                  src="/plumbing1.jpg"
                   alt="plumbing services in maypen clarendon"
                   width={300}
                   height={300}
@@ -94,7 +94,7 @@ const Construction = () => {
             <div className={styles.constructiondiv5}>
               <div className={styles.imgradius}>
                 <Image
-                  src="/plumbing2.png"
+                  src="/plumbing2.jpg"
                   alt="plumbing services in maypen clarendon"
                   width={300}
                   height={300}
@@ -106,23 +106,6 @@ const Construction = () => {
               </div>
             </div>
           </section>
-
-          {/* <div className={styles.contructioncontent}>
-            <div className={styles.callus}>
-              <p>
-                We supply thousands of customers with materials to start homes
-                and projects big or small we understand and willing to help you
-                start somewhere.
-              </p>
-              <p>Call us today (876)454-9844</p>
-            </div>
-            <p>
-              We supply thousands of customers with materials to start homes and
-              projects big or small we understand and willing to help you start
-              somewhere.
-            </p>
-            <p>Call us today (876)454-9844</p>
-          </div> */}
         </section>
         <section className={styles.sec4container}>
           <div className={styles.gallery}>

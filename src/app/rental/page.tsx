@@ -7,7 +7,7 @@ const Rental = () => {
     <section className={styles.mainsec}>
       <section className={styles.headimg}>
         <Image
-          src="/rental3.png"
+          src="/rental3.jpg"
           alt="rental cars in maypen clarendon"
           width={2300}
           height={2300}

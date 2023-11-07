@@ -7,7 +7,7 @@ const Events = () => {
     <section className={styles.firstsec}>
       <div className={styles.headimg}>
         <Image
-          src="/eventshosting.png"
+          src="/eventshosting.jpg"
           alt="entertainment spot in maypen clarendon"
           width={399}
           height={399}
@@ -21,7 +21,7 @@ const Events = () => {
         <section className={styles.hosting}>
           <div className={styles.imgradius}>
             <Image
-              src="/eventshosting.png"
+              src="/eventshosting.jpg"
               alt="place in maypen to host an event"
               width={300}
               height={300}

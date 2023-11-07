@@ -7,7 +7,7 @@ const Electronics = () => {
     <section className={styles.sec1}>
       <div className={styles.headerimg}>
         <Image
-          src="/electronicspage.png"
+          src="/electronicspage.jpg"
           alt="electronics header"
           width={530}
           height={530}
@@ -72,7 +72,7 @@ const Electronics = () => {
         <div className={styles.cameradiv}>
           <div className={styles.imgradius}>
             <Image
-              src="/camera.png"
+              src="/camera.jpg"
               alt="we provide Camera installment"
               width={600}
               height={600}
@@ -92,7 +92,7 @@ const Electronics = () => {
         <div className={styles.powersaw}>
           <div className={styles.imgradius}>
             <Image
-              src="/powersaw.png"
+              src="/powersaw.jpg"
               alt="Power saw for sale in maypen clarendon"
               width={300}
               height={300}
@@ -110,7 +110,7 @@ const Electronics = () => {
         <div className={styles.electricaldrill}>
           <div className={styles.imgradius}>
             <Image
-              src="/electricaldrill.png"
+              src="/electricaldrill.jpg"
               alt="cheap electrical for sale in maypen clarendow Jamaica"
               width={300}
               height={300}
