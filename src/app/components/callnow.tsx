@@ -8,7 +8,7 @@ import React from "react";
 const Call = () => {
   return (
     <ul className={styles.call}>
-      <IconContext.Provider value={{ color: "#fff", size: "2.99rem" }}>
+      <IconContext.Provider value={{ color: "#fff", size: "2.33rem" }}>
         <li className={styles.li}>
           <IoIcons.IoIosCall />
 
