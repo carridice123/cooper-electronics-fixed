@@ -24,12 +24,90 @@ function slide() {
     </SwiperSlide>
   );
 }
+function slideelec1() {
+  return (
+    <SwiperSlide className={styles.swiper}>
+      <Image
+        className={styles.img}
+        src="/electronicsinsta2.jpg"
+        alt="image"
+        width={1000}
+        height={800}
+      />
+    </SwiperSlide>
+  );
+}
+function slideelec2() {
+  return (
+    <SwiperSlide className={styles.swiper}>
+      <Image
+        className={styles.img}
+        src="/electronicsinsta3.jpg"
+        alt="image"
+        width={1000}
+        height={800}
+      />
+    </SwiperSlide>
+  );
+}
+function slideelec3() {
+  return (
+    <SwiperSlide className={styles.swiper}>
+      <Image
+        className={styles.img}
+        src="/electronicsinsta1.jpg"
+        alt="image"
+        width={1000}
+        height={800}
+      />
+    </SwiperSlide>
+  );
+}
+function slideelec4() {
+  return (
+    <SwiperSlide className={styles.swiper}>
+      <Image
+        className={styles.img}
+        src="/electronicsinsta5.jpg"
+        alt="image"
+        width={1000}
+        height={800}
+      />
+    </SwiperSlide>
+  );
+}
+function slideelec5() {
+  return (
+    <SwiperSlide className={styles.swiper}>
+      <Image
+        className={styles.img}
+        src="/electronicsinsta4.jpg"
+        alt="image"
+        width={1000}
+        height={800}
+      />
+    </SwiperSlide>
+  );
+}
+function slideelec6() {
+  return (
+    <SwiperSlide className={styles.swiper}>
+      <Image
+        className={styles.img}
+        src="/electronicsinsta6.jpg"
+        alt="image"
+        width={1000}
+        height={800}
+      />
+    </SwiperSlide>
+  );
+}
 function slide2() {
   return (
     <SwiperSlide className={styles.swiper}>
       <Image
         className={styles.img}
-        src="/img13.jpg"
+        src="/img25.jpg"
         alt="image"
         width={1000}
         height={800}
@@ -81,7 +159,7 @@ function slide6() {
     <SwiperSlide className={styles.swiper}>
       <Image
         className={styles.img}
-        src="/img6.jpg"
+        src="/img21.jpg"
         alt="image"
         width={1000}
         height={800}
@@ -146,6 +224,12 @@ const Slider = () => {
           className={styles.slides}
         >
           {slide()}
+          {slideelec1()}
+          {slideelec2()}
+          {slideelec3()}
+          {slideelec4()}
+          {slideelec5()}
+          {slideelec6()}
           {slide2()}
           {slide3()}
           {slide4()}

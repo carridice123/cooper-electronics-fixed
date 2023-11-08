@@ -71,6 +71,7 @@
 }
 .servicesh1 {
   font-weight: 900;
+  color: #000;
 }
 .servicesnaddress {
   /* border: 1px solid black; */
@@ -170,7 +171,7 @@
   .servicesh1 {
     font-weight: 900;
     font-size: 1.426rem;
-    color: #f46b45;
+    color: #000;
   }
 
   .servicesul {
