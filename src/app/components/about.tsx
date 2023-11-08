@@ -1,4 +1,10 @@
+"use client";
 import styles from "../styles/about.module.css";
+import * as AiIcons from "react-icons/ai";
+import * as BsIcons from "react-icons/bs";
+import { IconContext } from "react-icons";
+import React from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 const About = () => {
@@ -42,13 +48,13 @@ const About = () => {
             <ul className={styles.div2ul}>
               <li className={styles.lis}>Sand</li>
               <li className={styles.lis}>Grit</li>
-              <li className={styles.lis}>Blocks</li>
+              <li className={styles.lis}>Cement</li>
               <li className={styles.lis}>Steel</li>
-              <li className={styles.lis}>Cement etc</li>
+              <li className={styles.lis}>Windows etc</li>
             </ul>
             <ul className={styles.div2ul}>
               <li className={styles.lis}>Doors</li>
-              <li className={styles.lis}>Windows</li>
+              <li className={styles.lis}>Blocks</li>
               <li className={styles.lis}>Tiles</li>
               <li className={styles.lis}>Toilets</li>
               <li className={styles.lis}>Face Basins etc</li>
@@ -67,41 +73,41 @@ const About = () => {
         </div>
         <div className={styles.div3content}>
           <div className={styles.div3}>
-            <div>
-              <Image
-                src="/clock.jpg"
-                alt="clock image"
-                width={200}
-                height={200}
-                className={styles.divimg}
-              ></Image>
-            </div>
+            <div className={styles.timemoney}>
+              <ul>
+                <IconContext.Provider value={{ color: "#f00", size: "2rem" }}>
+                  <li className={styles.clockicon}>
+                    <AiIcons.AiOutlineClockCircle />
+                  </li>
+                </IconContext.Provider>
+              </ul>
 
-            <p className={styles.timedesk}>
-              Your time is money and we value it as much as your order therefore
-              we want you to recieve your order as soon as possible.
-            </p>
-            <p className={styles.time}>
-              Your time is money and we value it as much as your order.
-            </p>
+              <p className={styles.timedesk}>
+                Your time is money and we value it as much as your order
+                therefore we want you to recieve your order as soon as possible.
+              </p>
+              <p className={styles.time}>
+                Your time is money and we value it as much as your order.
+              </p>
+            </div>
           </div>
           <div className={styles.div4}>
-            <div>
-              <Image
-                src="/phone.jpg"
-                alt="phone image"
-                width={100}
-                height={100}
-                className={styles.divimg}
-              ></Image>
-            </div>
+            <div className={styles.callusopen}>
+              <ul>
+                <IconContext.Provider value={{ color: "#f00", size: "2rem" }}>
+                  <li className={styles.phoneicon}>
+                    <BsIcons.BsFillTelephoneFill />
+                  </li>
+                </IconContext.Provider>
+              </ul>
 
-            <p className={styles.timesdesk}>
-              We have excellent customer support call us open hours
-            </p>
-            <p className={styles.times}>
-              We have excellent customer support call us open hours.
-            </p>
+              <p className={styles.timesdesk}>
+                We have excellent customer support call us open hours
+              </p>
+              <p className={styles.times}>
+                We have excellent customer support call us open hours.
+              </p>
+            </div>
           </div>
         </div>
       </div>

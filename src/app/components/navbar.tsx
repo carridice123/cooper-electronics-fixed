@@ -1,5 +1,6 @@
 import styles from "../styles/nav.module.css";
 import Image from "next/image";
+import Email from "./email";
 import Link from "next/link";
 const Navbar = () => {
   return (
@@ -8,8 +9,9 @@ const Navbar = () => {
         <ul className={styles.navul}>
           <li className={styles.navlis}>Copper-electronics-Hardwares</li>
           <li className={styles.navhome}>Home</li>
-          <li>about us</li>
-          <li>contacts</li>
+          <li className={styles.mail}>
+            <Email />
+          </li>
           <li className={styles.phone}>
             <Image
               src="/phone2.png"

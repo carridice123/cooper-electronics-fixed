@@ -1,0 +1,15 @@
+.mail {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.email {
+  color: #fff;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+.email:focus {
+  text-decoration: underline;
+}

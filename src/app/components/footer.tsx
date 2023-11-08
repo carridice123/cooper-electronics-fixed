@@ -1,5 +1,6 @@
 import Socials from "./socials";
 import Link from "next/link";
+import Email from "./email";
 import Logo from "./logo";
 import styles from "../styles/footer.module.css";
 const Footer = () => {
@@ -14,7 +15,9 @@ const Footer = () => {
             <h1 className={styles.secondsech1}>About Us</h1>
 
             <ul className={styles.footerul}>
-              <li>Email: copperelectronics@gmail.com</li>
+              <li>
+                <Email />
+              </li>
               <li>Tel: (876)454-9844</li>
             </ul>
           </section>
@@ -31,7 +34,7 @@ const Footer = () => {
                 <Link href="/rental">Rental Cars</Link>
               </li>
               <li>
-                <Link href="/entertainment">We also host events</Link>
+                <Link href="/events">We also host events</Link>
               </li>
             </ul>
           </section>

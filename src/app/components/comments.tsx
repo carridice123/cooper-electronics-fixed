@@ -8,8 +8,11 @@ const Navbar = () => {
         <ul className={styles.navul}>
           <li className={styles.navlis}>Copper-electronics-Hardwares</li>
           <li className={styles.navhome}>Home</li>
-          <li>about us</li>
-          <li>contacts</li>
+          <li className={styles.mail}>
+            <Link href="mailto:copperelectronicsandhardwares@gmail.com">
+              copperelectronicsandhardwares@gmail.com
+            </Link>
+          </li>
           <li className={styles.phone}>
             <Image
               src="/phone2.png"
