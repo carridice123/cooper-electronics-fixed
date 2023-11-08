@@ -8,7 +8,7 @@ import React from "react";
 const Call = () => {
   return (
     <ul className={styles.call}>
-      <IconContext.Provider value={{ color: "#fff", size: "1.89rem" }}>
+      <IconContext.Provider value={{ color: "#fff", size: "2rem" }}>
         <li className={styles.li}>
           <Link href="tel:8764549844" className={styles.calllink}>
             <button className={styles.callnow}>
