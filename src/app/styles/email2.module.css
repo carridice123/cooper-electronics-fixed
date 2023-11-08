@@ -1,0 +1,18 @@
+.mail {
+  display: flex;
+  margin-left: 1.3rem;
+  color: #fff;
+}
+
+.email {
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+.email:focus {
+  text-decoration: underline;
+}

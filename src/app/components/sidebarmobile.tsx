@@ -4,6 +4,9 @@ import React, { useState } from "react";
 import Link from "next/link";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
+import Email2 from "./email2";
+import Call from "./callnow";
+import Mobilesocials from "./mobilesocial";
 import { SidebarData } from "./sidebarData";
 import { IconContext } from "react-icons";
 import "../styles/sidebarmobile.css";
@@ -14,7 +17,7 @@ const Sidebarmobile = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "#ffffff" }}>
         <div className="navbar">
           <div className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
@@ -40,6 +43,11 @@ const Sidebarmobile = () => {
                 </li>
               );
             })}
+            <div className="contacts">
+              <Call />
+              <Email2 />
+              <Mobilesocials />
+            </div>
           </ul>
         </nav>
       </IconContext.Provider>

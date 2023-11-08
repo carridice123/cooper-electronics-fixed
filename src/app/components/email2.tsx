@@ -1,15 +1,15 @@
 "use client";
 import Link from "next/link";
-import styles from "../styles/email.module.css";
+import styles from "../styles/email2.module.css";
 import * as HiIcons from "react-icons/hi";
 
 import { IconContext } from "react-icons";
 import React from "react";
 
-const Email = () => {
+const Email2 = () => {
   return (
     <ul>
-      <IconContext.Provider value={{ color: "#fff", size: "1.94rem" }}>
+      <IconContext.Provider value={{ color: "#ffffff", size: ".8rem" }}>
         <li className={styles.mail}>
           <HiIcons.HiOutlineMail />
           <Link
@@ -24,4 +24,4 @@ const Email = () => {
   );
 };
 
-export default Email;
+export default Email2;

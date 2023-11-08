@@ -10,28 +10,28 @@ const Socials = () => {
   return (
     <section className={styles.sec}>
       <ul className={styles.navul}>
-        <IconContext.Provider value={{ size: "40px" }}>
+        <IconContext.Provider value={{ size: "3.5rem" }}>
           <Link href="https://www.instagram.com/copperelectronics">
             <li>
               <AiIcons.AiFillInstagram />
             </li>
           </Link>
         </IconContext.Provider>
-        <IconContext.Provider value={{ size: "40px" }}>
+        <IconContext.Provider value={{ size: "3.5rem" }}>
           <li>
             <Link href="https://www.tiktok.com/@copper.electronic">
               <FaIcons.FaTiktok />
             </Link>
           </li>
         </IconContext.Provider>
-        <IconContext.Provider value={{ size: "40px" }}>
+        <IconContext.Provider value={{ size: "3.5rem" }}>
           <li className={styles.facebook}>
             <Link href="#">
               <BsIcons.BsFacebook />
             </Link>
           </li>
         </IconContext.Provider>
-        <IconContext.Provider value={{ size: "40px" }}>
+        <IconContext.Provider value={{ size: "3.5rem" }}>
           <li>
             <Link href="#">
               <BsIcons.BsTwitter />
