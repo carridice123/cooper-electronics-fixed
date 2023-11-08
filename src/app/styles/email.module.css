@@ -1,6 +1,8 @@
 .mail {
   display: flex;
   gap: 0.3rem;
+  width: 24rem;
+  height: 1.5rem;
 }
 
 .email {
