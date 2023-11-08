@@ -10,10 +10,9 @@ const Call = () => {
     <ul className={styles.call}>
       <IconContext.Provider value={{ color: "#fff", size: "2.33rem" }}>
         <li className={styles.li}>
-          <IoIcons.IoIosCall />
-
           <Link href="tel:8764549844" className={styles.calllink}>
-            <button className={styles.callnow}>Call Now</button>
+            <IoIcons.IoIosCall />
+            Call Now
           </Link>
         </li>
       </IconContext.Provider>
