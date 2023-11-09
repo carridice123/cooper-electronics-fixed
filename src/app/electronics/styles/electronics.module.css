@@ -191,10 +191,11 @@
     font-weight: 900;
     font-size: 26px;
     padding-top: 1rem;
+    color: #fff;
   }
   .installh2,
   .detailspan {
-    color: #f46b45;
+    color: #333333;
   }
   .imgcontain {
     display: none;
@@ -309,22 +310,22 @@
   .h1keys {
     font-size: 1.2rem;
     font-weight: 800;
-    color: #ff2d4f;
+    color: #333333;
   }
   .cameradivp2,
   .replacekeys,
   .setup {
     font-size: 1rem;
     font-weight: 800;
-    color: #ff2d4f;
+    color: #333333;
   }
-  .powersawchild,
+  /* .powersawchild,
   .div1content,
   .electricalldrillchild,
   .powersawchild,
   .cameradivp {
     border-bottom: 1px solid red;
-  }
+  } */
 }
 
 @media (max-width: 899px) {
@@ -334,16 +335,18 @@
   .sec1 {
     background-color: #f0f0fb;
     width: 100vw;
+
     height: auto;
   }
   .divrentalh1 {
     font-weight: 900;
     font-size: 26px;
     padding-top: 1rem;
+    color: #fff;
   }
   .installh2,
   .detailspan {
-    color: #f46b45;
+    color: #333;
   }
   .imgcontain {
     display: none;
@@ -457,13 +460,13 @@
   .h1keys {
     font-size: 1.2rem;
     font-weight: 800;
-    color: #ff2d4f;
+    color: #333;
   }
   .cameradivp2,
   .replacekeys,
   .setup {
     font-size: 1rem;
     font-weight: 800;
-    color: #ff2d4f;
+    color: #333;
   }
 }

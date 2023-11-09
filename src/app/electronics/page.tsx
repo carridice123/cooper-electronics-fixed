@@ -72,6 +72,21 @@ const Electronics = () => {
         <div className={styles.cameradiv}>
           <div className={styles.imgradius}>
             <Image
+              src="/copperhome.jpg"
+              alt="technician in maypen clarendon"
+              width={600}
+              height={600}
+              className={styles.imgelec}
+            ></Image>
+          </div>
+
+          <div className={styles.cameradivp}>
+            <p className={styles.cameradivp1}>Your vehicle deserves the best</p>
+          </div>
+        </div>
+        <div className={styles.cameradiv}>
+          <div className={styles.imgradius}>
+            <Image
               src="/camera.jpg"
               alt="we provide Camera installment"
               width={600}

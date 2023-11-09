@@ -5,7 +5,7 @@ import Slider from "./components/slide";
 import About from "./components/about";
 import Contacts from "./components/contact";
 import Manager from "./components/manger";
-
+import Hardwares from "./components/hardwares";
 import Mobilenav from "./components/hamnavmobile";
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
         <Secondnav />
       </section>
       <About />
+      <Hardwares />
       <Manager />
 
       <Contacts />

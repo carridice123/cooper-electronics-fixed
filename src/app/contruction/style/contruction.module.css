@@ -94,6 +94,7 @@
     flex-direction: column;
     width: 100vw;
     height: auto;
+    color: #333;
   }
   .constructiondiv1,
   .constructiondiv2,
@@ -195,11 +196,11 @@
   .divteamh1,
   .plumbingdivh1 {
     font-size: 1.2rem;
-    color: #ff2d4f;
+    color: #333;
     font-weight: 800;
   }
   .delivery {
-    color: #ff2d4f;
+    color: #333;
     font-weight: 600;
   }
 }
@@ -209,6 +210,7 @@
     flex-direction: column;
     width: 100vw;
     height: auto;
+    color: #333;
   }
   .constructiondiv1,
   .constructiondiv2,
@@ -219,6 +221,7 @@
     flex-direction: column;
     align-items: center;
     gap: 4rem;
+    color: #333;
   }
   .sec2 {
     width: 100vw;
@@ -310,11 +313,11 @@
   .divteamh1,
   .plumbingdivh1 {
     font-size: 1.2rem;
-    color: #ff2d4f;
+    color: #333;
     font-weight: 800;
   }
   .delivery {
-    color: #ff2d4f;
+    color: #333;
     font-weight: 600;
   }
 }

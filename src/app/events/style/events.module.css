@@ -89,6 +89,7 @@
     top: 50%;
     left: 50%;
     margin-left: 0.9rem;
+    color: #a52a2a;
 
     transform: translate(-50%, -50%);
   }
@@ -153,12 +154,12 @@
     text-decoration: underline;
     font-size: 1.7rem;
     font-weight: 800;
-    color: #ff2d4f;
+    color: #333;
   }
   /* fonts  */
   .hostingdiv h1 {
     font-size: 1.2rem;
-    color: #ff2d4f;
+    color: #333;
     font-weight: 800;
   }
 }
@@ -168,6 +169,7 @@
     flex-direction: column;
     gap: 0.4rem;
     align-items: center;
+    color: #333;
   }
   .entertainmentcontent {
     width: 100vw;
@@ -192,7 +194,7 @@
     top: 50%;
     left: 50%;
     margin-left: 0.9rem;
-
+    color: #a52a2a;
     transform: translate(-50%, -50%);
   }
   .headimg {
@@ -234,6 +236,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    color: #333;
   }
   .imgradius {
     display: flex;
@@ -256,12 +259,12 @@
     text-decoration: underline;
     font-size: 1.7rem;
     font-weight: 800;
-    color: #ff2d4f;
+    color: #333;
   }
   /* fonts  */
   .hostingdiv h1 {
     font-size: 1.2rem;
-    color: #ff2d4f;
+    color: #333;
     font-weight: 800;
   }
 }

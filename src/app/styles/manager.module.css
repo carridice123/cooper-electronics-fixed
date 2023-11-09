@@ -33,10 +33,11 @@
     /* border: 1px solid #000; */
   }
   .managerimg {
-    border: 1px solid #000;
-    border-radius: 50%;
+    border-radius: 20px;
     width: 38vw;
     height: 50vh;
+    border-bottom: #d00;
+
     padding-top: 0.52rem;
   }
   .ceo {
@@ -82,11 +83,11 @@
     /* border: 1px solid #000; */
   }
   .managerimg {
-    border: 1px solid #d00;
-    border-radius: 50%;
+    border-radius: 20px;
     width: 51vw;
     height: 56vh;
     padding-top: 0.52rem;
+    border-bottom: #d00;
   }
   .ceo {
     font-size: 1rem;
