@@ -71,7 +71,7 @@
 }
 .servicesh1 {
   font-weight: 900;
-  color: #000;
+  color: #333;
 }
 .servicesnaddress {
   /* border: 1px solid black; */
@@ -165,13 +165,13 @@
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
-    color: black;
+    color: #333;
     background-color: #f9fafb;
   }
   .servicesh1 {
     font-weight: 900;
     font-size: 1.426rem;
-    color: #000;
+    color: #333;
   }
 
   .servicesul {
@@ -182,6 +182,7 @@
   .servicesnaddress {
     font-weight: 500;
     font-size: 0.85rem;
+    color: #333;
   }
   .hardwarediv {
     padding-right: 1.97rem;
@@ -199,25 +200,28 @@
     justify-content: center;
     gap: 1.4rem;
     font-size: 0.87rem;
+    color: #333;
   }
   .div3,
   .div4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #333;
   }
   .timemoney,
   .callusopen {
     display: flex;
+    color: #333;
     gap: 0.4rem;
   }
   .div2ul li {
-    border: 1px solid #000;
+    border: 1px solid #333;
   }
   .headingspann {
     font-size: 0.567rem;
     padding-top: 1.6rem;
-    color: #000;
+    color: #333;
   }
   .timedesk {
     display: none;
