@@ -23,7 +23,7 @@ const Contacts = () => {
 
           <h3 className={styles.div2h2}>
             This is our electronics store number you can call and check if we
-            have what you need. Office tel: (876)631-297
+            have what you need. Office tel: (876)631-2975
           </h3>
         </div>
 

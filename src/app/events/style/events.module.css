@@ -63,13 +63,13 @@
   .secondsec {
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 1.8rem;
     align-items: center;
   }
   .entertainmentcontent {
     width: 100vw;
     height: auto;
-    padding-top: 2rem;
+    padding-top: 4.5rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -119,9 +119,11 @@
     align-items: center;
   }
   .img {
-    width: 47vh;
+    width: 60%;
     height: auto;
     border-radius: 5px;
+
+    border-bottom: 3px solid #f00;
   }
   .hosting,
   .hosting2,
@@ -154,7 +156,7 @@
     text-decoration: underline;
     font-size: 1.7rem;
     font-weight: 800;
-    color: #333;
+    color: #f00;
   }
   /* fonts  */
   .hostingdiv h1 {
@@ -226,6 +228,7 @@
     width: 47vh;
     height: auto;
     border-radius: 5px;
+    border: 1px solid #f00;
   }
   .hosting,
   .hosting2,
@@ -259,7 +262,7 @@
     text-decoration: underline;
     font-size: 1.7rem;
     font-weight: 800;
-    color: #333;
+    color: #f00;
   }
   /* fonts  */
   .hostingdiv h1 {
