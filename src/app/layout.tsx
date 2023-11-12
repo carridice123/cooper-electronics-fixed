@@ -15,12 +15,6 @@ export const metadata: Metadata = {
   title: "Copper Electronics And Hardwares",
   description:
     "We sell Electronic fixtures, Construction Materials and Camera System installments, ",
-  icons: {
-    icon: ["/favicon.ico?v=4"],
-    apple: ["/apple-touch-icon.png?v=4"],
-    shortcut: ["/apple-touch-icon.png"],
-  },
-  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
