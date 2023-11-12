@@ -10,6 +10,7 @@ import Mobilesocials from "./mobilesocial";
 import { SidebarData } from "./sidebarData";
 import { IconContext } from "react-icons";
 import "../styles/sidebarmobile.css";
+
 const Sidebarmobile = () => {
   const [sidebar, setSidebar] = useState(false);
 
@@ -56,3 +57,6 @@ const Sidebarmobile = () => {
 };
 
 export default Sidebarmobile;
+function k(gzipped: any, arg1: number, k: any) {
+  throw new Error("Function not implemented.");
+}
